@@ -401,9 +401,9 @@ void MainWindow::createTrayIcon()
 
 void MainWindow::trayIconVisible(bool visible)
 {
-    minimizeAction->setEnabled(visible);
-    maximizeAction->setEnabled(!visible);
-    syncAction->setEnabled(true);
+	minimizeAction->setEnabled(true);
+	maximizeAction->setEnabled(true);
+	syncAction->setEnabled(true);
     syncAllAction->setEnabled(true);
 }
 
@@ -411,8 +411,9 @@ void MainWindow::trayIconActivated(QSystemTrayIcon::ActivationReason reason)
 {
     switch (reason) {
     case QSystemTrayIcon::MiddleClick:
+		this->show();
     case QSystemTrayIcon::DoubleClick:
-        if (this->isHidden()) {
+		if (this->isHidden()) {
             this->show();
         }
         else {
