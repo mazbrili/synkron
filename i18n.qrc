@@ -1,20 +1,20 @@
 <RCC>
-    <qresource prefix="/" >
-        <file>i18n/Synkron-Arabic.qm</file>
-        <file>i18n/Synkron-Brazilian_Portuguese.qm</file>
-        <file>i18n/Synkron-French.qm</file>
-        <file>i18n/Synkron-German.qm</file>
-        <file>i18n/Synkron-Italian.qm</file>
-        <file>i18n/Synkron-Japanese.qm</file>
-        <file>i18n/Synkron-Polish.qm</file>
-        <file>i18n/Synkron-Russian.qm</file>
-        <file>i18n/Synkron-Slovak.qm</file>
-        <file>i18n/Synkron-Spanish.qm</file>
-        <file>i18n/Synkron-Valencian.qm</file>
+    <qresource prefix="/">
+        <file>i18n/Synkron-Arabic.ts</file>
+        <file>i18n/Synkron-Brazilian_Portuguese.ts</file>
+        <file>i18n/Synkron-French.ts</file>
+        <file>i18n/Synkron-German.ts</file>
+        <file>i18n/Synkron-Italian.ts</file>
+        <file>i18n/Synkron-Japanese.ts</file>
+        <file>i18n/Synkron-Polish.ts</file>
+        <file>i18n/Synkron-Russian.ts</file>
+        <file>i18n/Synkron-Slovak.ts</file>
+        <file>i18n/Synkron-Spanish.ts</file>
+        <file>i18n/Synkron-Valencian.ts</file>
         <file>i18n/Synkron-i18n.qm</file>
-        <file>i18n/Synkron-Finnish.qm</file>
-        <file>i18n/Synkron-Czech.qm</file>
-        <file>i18n/Synkron-Chinese.qm</file>
-        <file>i18n/Synkron-Dutch.qm</file>
+        <file>i18n/Synkron-Finnish.ts</file>
+        <file>i18n/Synkron-Czech.ts</file>
+        <file>i18n/Synkron-Chinese.ts</file>
+        <file>i18n/Synkron-Dutch.ts</file>
     </qresource>
 </RCC>
