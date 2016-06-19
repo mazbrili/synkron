@@ -17,27 +17,27 @@
  Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 ********************************************************************/
 
-#ifndef EXTENDEDTREEWIDGET_H
-#define EXTENDEDTREEWIDGET_H
+#ifndef MTSTRINGSET_H
+#define MTSTRINGSET_H
 
-#include <QContextMenuEvent>
-#include <QTreeWidget>
+#include <QStringList>
 
-class ExtendedTreeWidget : public QTreeWidget
+class MTStringSet : public QStringList
 {
-    Q_OBJECT
-
 public:
-    ExtendedTreeWidget(QWidget * parent = 0):
-    QTreeWidget(parent) {};
+    MTStringSet(): QStringList() {};
+    MTStringSet(const QString & str): QStringList(str) {};
+    MTStringSet(const QStringList & other): QStringList(other) {};
+    MTStringSet(const QList<QString> & other): QStringList(other) {};
+    MTStringSet(const MTStringSet & other): QStringList(*((QStringList *)&other)) {};
+    //virtual ~MTStringSet() { this->QStringList::~QStringList(); };
 
-signals:
-    void sigconmenu(QPoint);
-
-protected:
-    void contextMenuEvent(QContextMenuEvent * event) {
-        emit sigconmenu(event->globalPos());
+    void append(const QString & str) {
+        if (!contains(str)) { this->QStringList::append(str); }
     };
+
+    inline QStringList & operator<<(const QString & str)
+        { append(str); return *this; };
 };
 
-#endif // EXTENDEDTREEWIDGET_H
+#endif // MTSTRINGSET_H

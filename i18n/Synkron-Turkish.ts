@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="it_IT">
+<TS version="2.0" language="tr_TR">
 <context>
     <name>About</name>
     <message>
         <location filename="../ui/about.ui" line="78"/>
         <location filename="../ui/about.ui" line="114"/>
         <source>About Synkron</source>
-        <translation>Info Synkron</translation>
+        <translation>Synkron Hakkında</translation>
     </message>
     <message>
         <location filename="../ui/about.ui" line="136"/>
         <location filename="../src/main.cpp" line="144"/>
         <source>About Qt</source>
-        <translation>info Qt</translation>
+        <translation>Qt Hakkında</translation>
     </message>
     <message>
         <location filename="../ui/about.ui" line="179"/>
         <source>Close</source>
-        <translation>Chiudi</translation>
+        <translation>Kapat</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="124"/>
         <source>Version</source>
-        <translation>Versione</translation>
+        <translation>Sürüm</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="128"/>
         <source>Synkron is a simple Qt application designed for easy folder synchronisation.</source>
-        <translation>Synkron è una semplice applicazione basata su librerie Qt per una facile sincronizzazione di cartelle.</translation>
+        <translation>Synkron kolay klasör senkronizasyonu için tasarlanmış bir Qt uygulamasıdır.</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="131"/>
         <source>This programme is distributed under the terms of the GPL v2.</source>
-        <translation>Questo programma è distribuito sotto licenza CPL v2.</translation>
+        <translation>Bu yazılım GPL v2 koşullarınca dağıtılmaktadır.</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="135"/>
         <source>The programme is provided AS IS with ABSOLUTELY NO WARRANTY OF ANY KIND, INCLUDING THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.</source>
-        <translation>Il programma è fornito così come si presenta con assolutamente non rilascia alcuna garanzia di qualsiasi tipo, compresa la garanzia di progettazione, la commerciabilità e idoneità per uno scopo particolare.</translation>
+        <translation>Bu yazılım size olduğu gibi aktarılmıştır. Herhangi bir taahhüt yada garanti içermez.</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="146"/>
         <source>This programme uses Qt Open Source Edition version %1.</source>
-        <translation>Questo programma usa le librerie Qt edizione Open Source versione %1.</translation>
+        <translation>Bu yazılım Qt Açık Kaynak Sürümü %1 kullanmaktadır.</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="148"/>
         <source>Qt is a C++ toolkit for cross-platform application development.</source>
-        <translation>Qt è un toolkit C++ per lo sviluppo di applicazioni cross-platform.</translation>
+        <translation>Qt bir çoklu platform C++ yazılım geliştirme paketidir.</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="150"/>
         <source>Qt provides single-source portability across MS Windows, Mac OS X, Linux and all major commercial Unix variants. Qt is also available for embedded devices as Qtopia Core.</source>
-        <translation>Qt permette da un singolo codice sorgente una piena portabilità su ogni piattaforma sia MS Windows, Mac OS X, Linux e tutte le più importanti versioni Unix. Qt è inoltre disponibile per dispositivi embedded e per Qtopia.</translation>
+        <translation>Qt, yalnızca tek kaynak kodu ile MS Windows, Mac OS X, Linux ve bir çok Unix-benzeri işletim sistemi için program geliştirmenizi sağlar. Qt ayrıca Qtopia Core olarak gömülü cihazlar içinde kullanılabilir.</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="152"/>
         <source>Qt is a Trolltech product. See &lt;span style=&quot;font-style:italic;&quot;&gt;http://www.trolltech.com/qt/&lt;/span&gt; for more information.</source>
-        <translation>Qt è un prodotto Trolltech. Leggi &lt;span style=&quot;font-style:italic;&quot;&gt;http://www.trolltech.com/qt/&lt;/span&gt; per maggiori informazioni.</translation>
+        <translation>Qt bir Trolltech ürünüdür. Daha fazla bilgi için &lt;span style=&quot;font-style:italic;&quot;&gt;http://www.trolltech.com/qt/&lt;/span&gt; adresini ziyaret edin.</translation>
     </message>
 </context>
 <context>
@@ -66,84 +66,101 @@
     <message>
         <location filename="../src/analyse.cpp" line="291"/>
         <source>DELETED</source>
-        <translation>CANCELLATO</translation>
+        <translation>SİLİNDİ</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="296"/>
         <source>NOT FOUND</source>
-        <translation>NON TROVATO</translation>
+        <translation>BULUNAMADI</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="323"/>
+        <source>OBSOLETE</source>
+        <translation>ESKİ</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="367"/>
+        <location filename="../src/syncdb.cpp" line="468"/>
+        <source>OK</source>
+        <translation>GÜNCEL</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="375"/>
+        <location filename="../src/analyse.cpp" line="381"/>
+        <source>COLLISION</source>
+        <translation>ÇAKIŞMA</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="397"/>
         <location filename="../src/analyse.cpp" line="703"/>
         <source>Loading...</source>
-        <translation>Caricamento...</translation>
+        <translation>Yükleniyor...</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="910"/>
         <source>Open</source>
-        <translation>Apri</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="919"/>
         <source>Sync</source>
-        <translation>Sincronizza</translation>
+        <translation>Eşitle</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="925"/>
         <source>Delete</source>
-        <translation>Cancella</translation>
+        <translation>Sil</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="929"/>
         <source>Rename</source>
-        <translation>Rinomina</translation>
+        <translation>Yeniden adlandır</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="935"/>
         <source>Add to blacklist</source>
-        <translation>Aggiungi alla Blacklist</translation>
+        <translation>Karalisteye ekle</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="937"/>
         <source>Remove from blacklist</source>
-        <translation>Rimuovi dalla Blacklist</translation>
+        <translation>Karalisteden çıkar</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="943"/>
         <source>Add extension to blacklist</source>
-        <translation>Aggiungi estensione alla blacklist</translation>
+        <translation>Uzantıyı karalisteye ekle</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="1031"/>
         <source>Are you sure you want to remove &quot;%1&quot; from every synced location?</source>
-        <translation>Sei sicuro di voleri rimuovere  &quot;%1&quot; da ogni locazione sincronizzata?</translation>
+        <translation>&quot;%1&quot;&apos;i tüm eşitlenmiş yerlerden kaldırmak istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="1087"/>
         <source>Synkron - Rename file</source>
-        <translation>Synkron - Rinomina file</translation>
+        <translation>Synkron - Dosyayı yeniden adlandır</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="1087"/>
         <source>Type a new name for &quot;%1&quot;:</source>
-        <translation>Scrivi un nuovo nome per &quot;%1&quot;:</translation>
+        <translation>&quot;%1&quot; için yeni bir isim girin:</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="1101"/>
         <source>Error renaming directory %1</source>
-        <translation>Errore di rinominazione directory %1</translation>
+        <translation>Klasör %1&apos;i adlandırırken hata oluştu</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="1103"/>
         <location filename="../src/analyse.cpp" line="1110"/>
         <source>File %1 renamed</source>
-        <translation>File %1 rinominato</translation>
+        <translation>Dosya %1 yeniden adlandırıldı</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="1108"/>
         <source>Error renaming file %1</source>
-        <translation>Errore ridenominazione file %1</translation>
+        <translation>Dosya %1&apos;i adlandırırken hata oluştu</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="216"/>
@@ -155,58 +172,73 @@
     <message>
         <location filename="../src/blacklist.cpp" line="216"/>
         <source>No file selected.</source>
-        <translation>Nessun file selezionato.</translation>
+        <translation>Dosya seçilmedi.</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="217"/>
         <source>Are you sure you want to remove the selected file from blacklist?</source>
-        <translation>Sei sicuro di voler eliminare il file selezionato dalla blacklist?</translation>
+        <translation>Seçili dosyayı karalisteden çıkarmak istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="261"/>
         <source>No folder selected.</source>
-        <translation>Nessuna cartella selezionata.</translation>
+        <translation>Klasör seçilmedi.</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="262"/>
         <source>Are you sure you want to remove the selected folder from blacklist?</source>
-        <translation>Sei sicuro di voler eliminare la cartella selezionata dalla blacklist?</translation>
+        <translation>Seçili klasörü karalisteden çıkarmak istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="289"/>
         <source>Set extension</source>
-        <translation>Imposta estensione</translation>
+        <translation>Uzantı belirle</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="290"/>
         <source>Extension name:</source>
-        <translation>Nome Estensione:</translation>
+        <translation>Uzantı adı:</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="312"/>
         <source>No extension selected.</source>
-        <translation>Nessuna estensione selezionata.</translation>
+        <translation>Uzantı seçilmedi.</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="313"/>
         <source>Are you sure you want to remove the selected extension from blacklist?</source>
-        <translation>Sei sicuro di voler eliminare l&apos; estensione selezionata dalla blacklist?</translation>
+        <translation>Seçili uzantıyı karalisteden çıkarmak istediğinizden emin misiniz?</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="39"/>
+        <source>Enter allowed time difference</source>
+        <translation>İzin verilen zaman farkını giriniz</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="40"/>
+        <source>Allowed time difference (in seconds):</source>
+        <translation>İzin verilen zaman farkı (saniye olarak):</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="415"/>
         <location filename="../src/restore.cpp" line="428"/>
         <source>%1 files deleted</source>
-        <translation>%1 files eliminati</translation>
+        <translation>%1 dosya silindi</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="435"/>
         <source>Folder %1 with %2 files deleted</source>
-        <translation>Cartella %1 con %2 files eliminati </translation>
+        <translation>Klasör %1, %2 dosya ile beraber silindi</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="439"/>
         <source>Unknown error removing folder: %1</source>
-        <translation>Errore sconosciuto eliminazione cartella: %1</translation>
+        <translation>%1 klasörü kaldırılırken bilinmeyen bir hata oluştu</translation>
+    </message>
+    <message>
+        <location filename="../src/restore.cpp" line="449"/>
+        <source>Removing file %1</source>
+        <translation>%1 dosyası kaldırılıyor</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="464"/>
@@ -217,91 +249,91 @@
         <location filename="../src/sync.cpp" line="992"/>
         <location filename="../src/sync.cpp" line="1016"/>
         <source>File %1 deleted</source>
-        <translation>File %1 eliminato</translation>
+        <translation>%1 dosyası silindi</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="317"/>
         <source>&lt;b&gt;Files in the blacklist&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Files in blacklist&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Karalistedeki dosyalar&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="320"/>
         <source>List of files in the blacklist</source>
-        <translation>Lista dei files in blacklist</translation>
+        <translation>Karalistedeki dosyaların listesi</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="325"/>
         <location filename="../src/sync.cpp" line="346"/>
         <location filename="../src/sync.cpp" line="367"/>
         <source>Add</source>
-        <translation>Aggiungi</translation>
+        <translation>Ekle</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="326"/>
         <source>Add file to black list</source>
-        <translation>Aggiungi file in black list</translation>
+        <translation>Dosyayı karalisteye ekle</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="330"/>
         <location filename="../src/sync.cpp" line="351"/>
         <location filename="../src/sync.cpp" line="372"/>
         <source>Remove</source>
-        <translation>Rimuovi</translation>
+        <translation>Çıkar</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="331"/>
         <source>Remove file from black list</source>
-        <translation>Rimuovi file dalla black list</translation>
+        <translation>Dosyayı kara listeden çıkar</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="338"/>
         <source>&lt;b&gt;Folders in the blacklist&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Cartelle in blacklist&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Karalistedeki klasörler&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="341"/>
         <source>List of folders in the blacklist</source>
-        <translation>Lista cartelle in black list</translation>
+        <translation>Karalistedeki klasörlerin listesi</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="347"/>
         <source>Add folder to black list</source>
-        <translation>Aggiungi cartella in black list</translation>
+        <translation>Klasörü karalisteye ekle</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="352"/>
         <source>Remove folder from black list</source>
-        <translation>Rimuovi cartella dalla black list</translation>
+        <translation>Klasörü karalisteden çıkar</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="359"/>
         <source>&lt;b&gt;Extensions in the blacklist&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Estensioni in blacklist&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Karalistedeki uzantılar&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="362"/>
         <source>List of extensions in the blacklist</source>
-        <translation>Lista di estensioni in blacklist</translation>
+        <translation>Karalistedeki uzantıların listesi</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="368"/>
         <source>Add extension to black list</source>
-        <translation>Aggiungi estensione in black list</translation>
+        <translation>Uzantıyı karalisteye ekle</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="373"/>
         <source>Remove extension from black list</source>
-        <translation>Rimuovi estensione dalla black list</translation>
+        <translation>Uzantıyı karalisteden çıkar</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="382"/>
         <source>Back</source>
-        <translation>Indietro</translation>
+        <translation>Geri</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="383"/>
         <source>Go back</source>
-        <translation>Vai indietro</translation>
+        <translation>Geri git</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="530"/>
@@ -311,39 +343,56 @@
         <location filename="../src/sync.cpp" line="802"/>
         <location filename="../src/sync.cpp" line="834"/>
         <source>Folder %1 blacklisted, skipped</source>
-        <translation>Cartella %1 in blacklist, saltata</translation>
+        <translation>%1 klasörü karalistede, pas geçildi</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="572"/>
         <location filename="../src/sync.cpp" line="818"/>
         <location filename="../src/sync.cpp" line="842"/>
         <source>File %1 blacklisted, skipped</source>
-        <translation>File %1 in blacklist, saltato</translation>
+        <translation>%1 dosyası karalistede, pas geçildi</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="611"/>
         <location filename="../src/sync.cpp" line="871"/>
         <source>A file or a folder and a symbolic link with the same name have been found. Unable to synchronise these files. (%1, %2)</source>
-        <translation>Un file o una cartella o un link simbolico con lo stesso nome sono stati trovati. Impossibile sincronizzare questi file. (%1, %2)</translation>
+        <translation>Bir sembolik link ile aynı isme sahip olan bir dosya yada klasör bulundu. Bu dosyalar eşitlenemedi (%1, %2)</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="624"/>
         <location filename="../src/sync.cpp" line="889"/>
         <source>A folder (%1) and a file (%2) with the same name have been found. Unable to synchronise these files.</source>
-        <translation>Una cartella (%1) o un file (%2) con lo stesso nome sono tati trovati. Impossibile sincronizzare questi file.</translation>
+        <translation>Aynı isme sahip bir klasör (%1) ve dosya (%2) bulundu. Bu dosyalar eşitlenemedi.</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="629"/>
         <location filename="../src/sync.cpp" line="893"/>
         <source>A file (%1) and a folder (%2) with the same name have been found. Unable to synchronise these files.</source>
-        <translation>Un file (%1) e una cartella (%2) con lo stesso nome sono stati trovati. Impossibile sincronizzare questi file.</translation>
+        <translation>Aynı isme sahip bir dosya (%1) ve klasör (%2) bulundu. Bu dosyalar eşitlenemedi.</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="675"/>
+        <location filename="../src/sync.cpp" line="1459"/>
+        <source>Updating file %1</source>
+        <translation>%1 dosyası güncelleniyor</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="697"/>
         <location filename="../src/sync.cpp" line="944"/>
         <location filename="../src/sync.cpp" line="1481"/>
         <source>File %1 restored</source>
-        <translation>File %1 ripristinato</translation>
+        <translation>%1 dosyası geri yüklendi</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="702"/>
+        <location filename="../src/sync.cpp" line="751"/>
+        <source>Searching for changes</source>
+        <translation>Değişiklikler tespit ediliyor</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="743"/>
+        <source>Copying file %1</source>
+        <translation>%1 dosyası kopyalanıyor</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="860"/>
@@ -353,161 +402,112 @@
         <location filename="../src/sync.cpp" line="994"/>
         <location filename="../src/sync.cpp" line="1018"/>
         <source>Error removing file %1</source>
-        <translation>Errore rimozione file %1</translation>
+        <translation>%1 dosyası kaldırılırken hata oluştu</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="865"/>
         <location filename="../src/sync.cpp" line="882"/>
         <location filename="../src/sync.cpp" line="999"/>
         <source>Folder %1 deleted</source>
-        <translation>Cartella %1 eliminata</translation>
+        <translation>%1 klasörü silindi</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="867"/>
         <location filename="../src/sync.cpp" line="884"/>
         <location filename="../src/sync.cpp" line="1001"/>
         <source>Error removing directory %1</source>
-        <translation>Errore rimozione cartella %1</translation>
+        <translation>%1 klasörü kaldırılırken hata oluştu</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="909"/>
         <source>Older file %1 backed up and deleted</source>
-        <translation>Vecchio file %1 salvato ed eliminato</translation>
+        <translation>Daha eski olan %1 dosyası yedeklendi ve silindi</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="1276"/>
         <source>%1 %2 files skipped</source>
-        <translation>%1 %2 file saltati</translation>
+        <translation>%1 %2 dosya pas geçildi</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="1332"/>
+        <source>to temp</source>
+        <translation>geçiciye</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="1335"/>
+        <source>Error copying file %1: %2</source>
+        <translation>%1 dosyası kopyalanırken hata oluştu: %2</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="1341"/>
+        <source>Error creating folder %1</source>
+        <translation>%1 klasörü oluşturulurken hata oluştu</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="1347"/>
+        <source>Error removing file %1: %2</source>
+        <translation>%1 dosyası kaldırılırken hata oluştu: %2</translation>
+    </message>
+    <message>
+        <location filename="../src/syncdb.cpp" line="26"/>
+        <source>Creating database</source>
+        <translation>Veritabanı oluşturuluyor</translation>
     </message>
     <message>
         <location filename="../src/syncdb.cpp" line="48"/>
         <location filename="../src/syncdb.cpp" line="173"/>
         <source>Cannot write file %1: %2</source>
-        <translation>Impossibile scrivere i file %1: %2</translation>
-    </message>
-    <message>
-        <location filename="../src/restore.cpp" line="449"/>
-        <source>Removing file %1</source>
-        <translation>Rimozione file %1</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="675"/>
-        <location filename="../src/sync.cpp" line="1459"/>
-        <source>Updating file %1</source>
-        <translation>Aggiornamento file %1</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="702"/>
-        <location filename="../src/sync.cpp" line="751"/>
-        <source>Searching for changes</source>
-        <translation>Ricerca per modifica</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="743"/>
-        <source>Copying file %1</source>
-        <translation>Copia file %1</translation>
-    </message>
-    <message>
-        <location filename="../src/tabs.cpp" line="38"/>
-        <source>Synkron - Save tab</source>
-        <translation>Synkron - Save tab</translation>
-    </message>
-    <message>
-        <location filename="../src/tabs.cpp" line="40"/>
-        <source>Synkron Tabs (*.slist)</source>
-        <translation>Synkron Tabs (*.slist)</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="39"/>
-        <source>Enter allowed time difference</source>
-        <translation>Inserisci la differenza di tempo permessa</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="40"/>
-        <source>Allowed time difference (in seconds):</source>
-        <translation>Differenza di tempo (in secondi):</translation>
-    </message>
-    <message>
-        <location filename="../src/analyse.cpp" line="323"/>
-        <source>OBSOLETE</source>
-        <translation>OBSOLETO</translation>
-    </message>
-    <message>
-        <location filename="../src/analyse.cpp" line="367"/>
-        <location filename="../src/syncdb.cpp" line="468"/>
-        <source>OK</source>
-        <translation>OK</translation>
-    </message>
-    <message>
-        <location filename="../src/analyse.cpp" line="375"/>
-        <location filename="../src/analyse.cpp" line="381"/>
-        <source>COLLISION</source>
-        <translation>COLLISIONE</translation>
-    </message>
-    <message>
-        <location filename="../src/syncdb.cpp" line="26"/>
-        <source>Creating database</source>
-        <translation>Creazione Database</translation>
+        <translation>%1 dosyası yazılamıyor: %2</translation>
     </message>
     <message>
         <location filename="../src/syncdb.cpp" line="158"/>
         <source>Removing database</source>
-        <translation>Rimozione Database</translation>
+        <translation>Veritabanı kaldırılıyor</translation>
     </message>
     <message>
         <location filename="../src/syncdb.cpp" line="392"/>
         <source>Collision found between files: %1 and %2</source>
-        <translation>Collisione trovata tra file: %1 e %2</translation>
+        <translation>%1 ve %2 dosyası arasında çakışma tespit edildi</translation>
     </message>
     <message>
         <location filename="../src/syncdb.cpp" line="435"/>
         <source>Collisions found</source>
-        <translation>Collisione trovata</translation>
+        <translation>Çakışma tespit edildi</translation>
     </message>
     <message>
         <location filename="../src/syncdb.cpp" line="439"/>
         <source>Collided files:</source>
-        <translation>File in collisione:</translation>
+        <translation>Çakışan dosyalar:</translation>
     </message>
     <message>
         <location filename="../src/syncdb.cpp" line="442"/>
         <source>Newer files</source>
-        <translation>File recenti</translation>
+        <translation>Daha yeni dosyalar</translation>
     </message>
     <message>
         <location filename="../src/syncdb.cpp" line="442"/>
         <source>Older files</source>
-        <translation>Vecchi file</translation>
+        <translation>Daha eski dosyalar</translation>
     </message>
     <message>
         <location filename="../src/syncdb.cpp" line="471"/>
         <source>Cancel</source>
-        <translation>Cancella</translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <location filename="../src/syncpage.h" line="206"/>
         <source>Stopping synchronisation, please wait...</source>
-        <translation>Termine sincronizzazione, la preghiamo di attendere ...</translation>
+        <translation>Eşitleme durduruluyor, lütfen bekleyin...</translation>
     </message>
     <message>
-        <location filename="../src/sync.cpp" line="1332"/>
-        <source>to temp</source>
-        <translation>in temp</translation>
+        <location filename="../src/tabs.cpp" line="38"/>
+        <source>Synkron - Save tab</source>
+        <translation>Synkron - Sekmeyi kaydet</translation>
     </message>
     <message>
-        <location filename="../src/sync.cpp" line="1335"/>
-        <source>Error copying file %1: %2</source>
-        <translation>Errore copia file %1: %2</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="1341"/>
-        <source>Error creating folder %1</source>
-        <translation>Errore creazione cartella %1</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="1347"/>
-        <source>Error removing file %1: %2</source>
-        <translation>Errore rimozione file %1: %2</translation>
+        <location filename="../src/tabs.cpp" line="40"/>
+        <source>Synkron Tabs (*.slist)</source>
+        <translation>Synkron Sekmelerş (*.slist)</translation>
     </message>
 </context>
 <context>
@@ -515,12 +515,12 @@
     <message>
         <location filename="../src/main.cpp" line="64"/>
         <source>Synkron - Rename file</source>
-        <translation>Synkron - Rinomina file</translation>
+        <translation>Synkron - Dosyayı yeniden adlandır</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="64"/>
         <source>Type a new name for &quot;%1&quot;:</source>
-        <translation>Scrivi un nuovo nome per &quot;%1&quot;:</translation>
+        <translation>&quot;%1&quot; için yeni bir dosya adı girin:</translation>
     </message>
 </context>
 <context>
@@ -528,87 +528,87 @@
     <message>
         <location filename="../src/mainwindow.cpp" line="123"/>
         <source>Slovak</source>
-        <translation>Slovacco</translation>
+        <translation>Slovakça</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="124"/>
         <source>German</source>
-        <translation>Tedesco</translation>
+        <translation>Almanca</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="125"/>
         <source>Japanese</source>
-        <translation>Giapponese</translation>
+        <translation>Japonca</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="126"/>
         <source>Arabic</source>
-        <translation>Arabo</translation>
+        <translation>Arapça</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="127"/>
         <source>Russian</source>
-        <translation>Russo</translation>
+        <translation>Rusça</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="128"/>
         <source>Spanish</source>
-        <translation>Spagnolo</translation>
+        <translation>İspanyolca</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="129"/>
         <source>Brazilian Portuguese</source>
-        <translation>Brasiliano Portoghese</translation>
+        <translation>Brezilya portekizcesi</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="130"/>
         <source>Polish</source>
-        <translation>Polacco</translation>
-    </message>
-    <message>
-        <location filename="../src/mainwindow.cpp" line="135"/>
-        <source>Czech</source>
-        <translation>Ceco</translation>
-    </message>
-    <message>
-        <location filename="../src/mainwindow.cpp" line="136"/>
-        <source>Chinese</source>
-        <translation>Cinese</translation>
-    </message>
-    <message>
-        <location filename="../src/mainwindow.cpp" line="137"/>
-        <source>Dutch</source>
-        <translation>Olandese</translation>
-    </message>
-    <message>
-        <location filename="../src/mainwindow.cpp" line="138"/>
-        <source>Romanian</source>
-        <translation>Rumeno</translation>
-    </message>
-    <message>
-        <location filename="../src/mainwindow.cpp" line="139"/>
-        <source>Turkish</source>
-        <translation type="unfinished"></translation>
+        <translation>Lehçe</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="131"/>
         <source>Italian</source>
-        <translation>Italiano</translation>
+        <translation>İtalyanca</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="132"/>
         <source>French</source>
-        <translation>Francese</translation>
+        <translation>Fransızca</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="133"/>
         <source>Valencian</source>
-        <translation>Valencia</translation>
+        <translation>Valensiyaca</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="134"/>
         <source>Finnish</source>
-        <translation>Finlandese</translation>
+        <translation>Fince</translation>
+    </message>
+    <message>
+        <location filename="../src/mainwindow.cpp" line="135"/>
+        <source>Czech</source>
+        <translation>Çekce</translation>
+    </message>
+    <message>
+        <location filename="../src/mainwindow.cpp" line="136"/>
+        <source>Chinese</source>
+        <translation>Çince</translation>
+    </message>
+    <message>
+        <location filename="../src/mainwindow.cpp" line="137"/>
+        <source>Dutch</source>
+        <translation>Flemenkçe</translation>
+    </message>
+    <message>
+        <location filename="../src/mainwindow.cpp" line="138"/>
+        <source>Romanian</source>
+        <translation>Rumence</translation>
+    </message>
+    <message>
+        <location filename="../src/mainwindow.cpp" line="139"/>
+        <source>Turkish</source>
+        <translation>Türkçe</translation>
     </message>
 </context>
 <context>
@@ -618,7 +618,7 @@
         <location filename="../src/mtadvancedgroupbox.h" line="51"/>
         <location filename="../src/mtadvancedgroupbox.h" line="56"/>
         <source>Advanced</source>
-        <translation>Avanzato</translation>
+        <translation>Gelişmiş</translation>
     </message>
 </context>
 <context>
@@ -626,42 +626,42 @@
     <message>
         <location filename="../src/mtpathdialogue.h" line="46"/>
         <source>Enter folder path</source>
-        <translation>Inserisci il percorso della cartella</translation>
+        <translation>Klasör adresini girin</translation>
     </message>
     <message>
         <location filename="../src/mtpathdialogue.h" line="46"/>
         <source>Enter file path</source>
-        <translation>Inserisci il percorso del file</translation>
+        <translation>Dosya adresini girin</translation>
     </message>
     <message>
         <location filename="../src/mtpathdialogue.h" line="50"/>
         <source>Enter folder path:</source>
-        <translation>Inserisci percorso cartella:</translation>
+        <translation>Klasör adresini girin:</translation>
     </message>
     <message>
         <location filename="../src/mtpathdialogue.h" line="50"/>
         <source>Enter file path:</source>
-        <translation>Inserisci percorso file:</translation>
+        <translation>Dosya adresini girin:</translation>
     </message>
     <message>
         <location filename="../src/mtpathdialogue.h" line="57"/>
         <source>Browse</source>
-        <translation>Sfoglia</translation>
+        <translation>Gözat</translation>
     </message>
     <message>
         <location filename="../src/mtpathdialogue.h" line="61"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>Tamam</translation>
     </message>
     <message>
         <location filename="../src/mtpathdialogue.h" line="65"/>
         <source>Cancel</source>
-        <translation>Cancella</translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <location filename="../src/mtpathdialogue.h" line="91"/>
         <source>Choose a file</source>
-        <translation>Scegli un file</translation>
+        <translation>Bir dosya seçin</translation>
     </message>
 </context>
 <context>
@@ -699,292 +699,165 @@
     <message>
         <location filename="../src/blacklist.cpp" line="60"/>
         <source>No file selected.</source>
-        <translation>Nessun file selezionato.</translation>
+        <translation>Dosya seçilmedi.</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="61"/>
         <source>Are you sure you want to remove the selected file from blacklist?</source>
-        <translation>Sei sicuro di voler eliminare il file selezionato dalla blacklist?</translation>
+        <translation>Seçili dosyayı karalisteden çıkarmak istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="111"/>
         <source>No folder selected.</source>
-        <translation>Nessuna cartella selezionata.</translation>
+        <translation>Klasör seçilmedi.</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="112"/>
         <source>Are you sure you want to remove the selected folder from blacklist?</source>
-        <translation>Sei sicuro di voler eliminare la cartella selezionata dalla blacklist?</translation>
+        <translation>Seçili klasörü karalisteden çıkarmak istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="143"/>
         <location filename="../src/filters.cpp" line="98"/>
         <source>Set extension</source>
-        <translation>Imposta estensione</translation>
+        <translation>Uzantı belirle</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="144"/>
         <source>Extension name:</source>
-        <translation>Nome estensione:</translation>
+        <translation>Uzantı adı:</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="168"/>
         <location filename="../src/filters.cpp" line="115"/>
         <source>No extension selected.</source>
-        <translation>Nessuna estensione selezionata.</translation>
+        <translation>Uzantı seçilmedi.</translation>
     </message>
     <message>
         <location filename="../src/blacklist.cpp" line="169"/>
         <source>Are you sure you want to remove the selected extension from blacklist?</source>
-        <translation>Sei sicuro di voler eliminare l&apos;estensione selezionata dalla blacklist?</translation>
+        <translation>Seçili uzantıyı kara listeden çıkarmak istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../src/filters.cpp" line="25"/>
         <source>Set filter name</source>
-        <translation>Imposta filtro nome</translation>
+        <translation>Filtre adını belirle</translation>
     </message>
     <message>
         <location filename="../src/filters.cpp" line="26"/>
         <source>Filter name:</source>
-        <translation>Filtro nome:</translation>
+        <translation>Filtre adı:</translation>
     </message>
     <message>
         <location filename="../src/filters.cpp" line="27"/>
         <source>filter_%1</source>
-        <translation>filtro_%1</translation>
+        <translation>filtre_%1</translation>
     </message>
     <message>
         <location filename="../src/filters.cpp" line="31"/>
         <source>A filter with the same name is already in the list</source>
-        <translation>Un filtro con lo stesso nome è nella lista</translation>
+        <translation>Ayni isme sahip bir filtre listede zaten mevcut</translation>
     </message>
     <message>
         <location filename="../src/filters.cpp" line="60"/>
         <source>No filter selected.</source>
-        <translation>Nessun filtro selezionato.</translation>
+        <translation>Filtre seçilmedi.</translation>
     </message>
     <message>
         <location filename="../src/filters.cpp" line="64"/>
         <source>Are you sure you want to remove the selected filter from the list?</source>
-        <translation>Sei sicuro di voler rimuovere il filtro selezionato dalla lista?</translation>
+        <translation>Seçili filtreyi listeden çıkarmak istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../src/filters.cpp" line="99"/>
         <source>Filter extension name:</source>
-        <translation>Filtro nome estensione:</translation>
+        <translation>Filtre uzantı adı:</translation>
     </message>
     <message>
         <location filename="../src/filters.cpp" line="117"/>
         <source>Are you sure you want to remove the selected extension from the list?</source>
-        <translation>Sei sicuro di voler rimuovere l&apos;estensione selezionata dalla lista?</translation>
+        <translation>Seçili uzantıyı listeden çıkarmak istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="35"/>
         <source>LTR</source>
-        <translation>LTR</translation>
+        <translation>Soldan Sağa</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="41"/>
         <location filename="../src/mainwindow.cpp" line="42"/>
         <source>Use the brushed metal style</source>
-        <translation>Usa Stile Metallico</translation>
+        <translation>Zımparalanmış metal stilini kullan</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="70"/>
         <source>Schedule name</source>
-        <translation>Nome pianificazione</translation>
+        <translation>Zamanlamai adı</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="70"/>
         <source>Status</source>
-        <translation>Stato</translation>
+        <translation>Durum</translation>
+    </message>
+    <message>
+        <location filename="../src/mainwindow.cpp" line="118"/>
+        <source>Show icons only</source>
+        <translation>Sadece simgeleri göster</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="246"/>
         <source>Synkron - Rename file</source>
-        <translation>Synkron - Rinomina file</translation>
+        <translation>Synkron-Dosyayı yeniden adlandır</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="246"/>
         <source>Type a new name for &quot;%1&quot;:</source>
-        <translation>Scrivi un nuovo nome per &quot;%1&quot;:</translation>
+        <translation>&quot;%1&quot; için yeni bir ad yazın:</translation>
     </message>
     <message>
-        <location filename="../src/other.cpp" line="499"/>
-        <source>Quit Synkron</source>
-        <translation>Chiudi Synkron</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="503"/>
-        <source>Are you sure you want to quit?</source>
-        <translation>Sei sicuro di voler chiudere?</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="507"/>
-        <source>Do not ask me again</source>
-        <translation>Non chiedermelo più</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="466"/>
-        <location filename="../src/other.cpp" line="513"/>
-        <source>&amp;Quit</source>
-        <translation>&amp;Chiudi</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="517"/>
-        <source>&amp;Minimise</source>
-        <translation>&amp;Minimizza</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="452"/>
-        <source>&amp;Hide</source>
-        <translation>&amp;Nascondi</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="456"/>
-        <source>S&amp;how</source>
-        <translation>&amp;Visualizza</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="460"/>
-        <source>Sync &amp;current tab</source>
-        <translation>Sync &amp;tab corrente</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="463"/>
-        <source>Sync &amp;all tabs</source>
-        <translation>Sync &amp;tutte le tabs</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="469"/>
-        <source>&amp;Check/Uncheck</source>
-        <translation>&amp;Check/Uncheck</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="472"/>
-        <source>&amp;Restore</source>
-        <translation>&amp;Ripristina</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="475"/>
-        <source>&amp;Remove</source>
-        <translation>&amp;Rimuovi</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="478"/>
-        <source>Add to &amp;blacklist</source>
-        <translation>Aggungi alla &amp;blacklist</translation>
+        <location filename="../src/mainwindow.cpp" line="326"/>
+        <source>Are you sure you want to close this tab?</source>
+        <translation>Bu sekmeyi kapatmak istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="83"/>
         <source>Failed to check for updates.</source>
-        <translation>Impossibile controllare gli aggiornamenti.</translation>
+        <translation>Güncellemeler kontrol edilemedi.</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="83"/>
         <source>&amp;Try again</source>
-        <translation>&amp;Riprova di nuovo</translation>
+        <translation>&amp;Tekrar deneyin</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="83"/>
         <source>Cancel</source>
-        <translation>Cancella</translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="99"/>
         <source>Your Synkron is up-to-date.</source>
-        <translation>Il tuo Synkron è aggiornato.</translation>
+        <translation>Kullandığınız Synkron güncel sürümdür.</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="103"/>
         <source>Synkron %1 is available now.</source>
-        <translation>Synkron %1 è disponibile ora.</translation>
+        <translation>Yeni Synkron sürümü &quot;%1&quot; bulundu.</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="186"/>
         <source>Change language - Synkron</source>
-        <translation>Cambia lingua - Synkron</translation>
+        <translation>Dili değiştir - Synkron</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="190"/>
         <source>Select your preferred language</source>
-        <translation>Seleziona la tua lingua preferita</translation>
+        <translation>Tercih ettiğiniz dili seçiniz</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="213"/>
         <source>You need to restart Synkron for the changes to apply.</source>
-        <translation>È necessario riavviare Synkron per applicare le modifiche.</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="549"/>
-        <source>Synkron - Save Multisync</source>
-        <translation>Synkron - Salva Multisync</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="551"/>
-        <source>Sync logs (*.html)</source>
-        <translation>Sync logs (*.html</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="556"/>
-        <source>Export sync log</source>
-        <translation>Esporta sync log</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="556"/>
-        <source>Cannot write file %1:
-%2.</source>
-        <translation>Impossibile scrivere file %1:
-%2.</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="562"/>
-        <source>Synkron sync log</source>
-        <translation>Synkron sync log</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="124"/>
-        <source>Error removing file %1</source>
-        <translation>Errore rimozione file %1</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="130"/>
-        <source>Error removing directory %1</source>
-        <translation>Errore rimozione directory %1</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="140"/>
-        <source>Are you sure you want to remove &quot;%1&quot; from every synced location?</source>
-        <translation>Sei sicuro di voler rimuovere &quot;%1&quot; da ogni posizione sincronizzata?</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="150"/>
-        <source>Removing files...</source>
-        <translation>Rimozione files...</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="179"/>
-        <location filename="../src/other.cpp" line="210"/>
-        <location filename="../src/other.cpp" line="236"/>
-        <source>File %1 deleted</source>
-        <translation>File %1 cancellato</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="261"/>
-        <source>Error renaming file %1</source>
-        <translation>Errore rinominazione file %1</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="269"/>
-        <source>Error renaming directory %1</source>
-        <translation>Errore rinominazione directory %1</translation>
-    </message>
-    <message>
-        <location filename="../src/other.cpp" line="301"/>
-        <location filename="../src/other.cpp" line="346"/>
-        <location filename="../src/other.cpp" line="372"/>
-        <source>File %1 renamed</source>
-        <translation>File %1 rinominato</translation>
+        <translation>Değişikliklerin etkili olması için Syknron&apos;u yeniden başlatmalısınız.</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="67"/>
@@ -992,67 +865,67 @@
         <location filename="../ui/mainwindow.ui" line="612"/>
         <location filename="../ui/mainwindow.ui" line="615"/>
         <source>Sync #1</source>
-        <translation>Sync #1</translation>
+        <translation>Eşitleme #1</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="96"/>
         <source>&lt;b&gt;Files available for restoring:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;file disponibili per il ripristino:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Geri yüklenmeye müsait dosyalar:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="127"/>
         <source>List of files available for restoring</source>
-        <translation>Lista dei files disponibili per il rispristino</translation>
+        <translation>Geri yükleme için müsait olan dosyaların listesi</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="136"/>
         <source>Select all temporary files</source>
-        <translation>Seleziona tutti i files temporanei</translation>
+        <translation>Tüm geçici dosyaları seç</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="139"/>
         <source>Select all</source>
-        <translation>Seleziona tutto</translation>
+        <translation>Tümünü seç</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="161"/>
         <source>Search</source>
-        <translation>Cerca</translation>
+        <translation>Ara</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="175"/>
         <source>Original file path</source>
-        <translation>Percorso file originale</translation>
+        <translation>Orijinal dosya&apos;yolu</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="185"/>
         <source>Add file to blacklist</source>
-        <translation>Aggiungi file nella blacklist</translation>
+        <translation>Dosyayı karalisteye ekle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="188"/>
         <source>Do not synchronise this file again (add to blacklist)</source>
-        <translation>Non sincronizzare nuovamente questo file (aggiungere alla blacklist)</translation>
+        <translation>Bu dosyayı tekrar eşitleme (karalisteye ekle)</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="195"/>
         <source>Date and time of synchronisation:</source>
-        <translation>Data e ora di sincronizzazione:</translation>
+        <translation>Eşitlemenin zamanı:</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="202"/>
         <source>Original file path:</source>
-        <translation>Percorso originale file:</translation>
+        <translation>Orijinal dosya&apos;yolu:</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="209"/>
         <source>&lt;b&gt;About the selected item:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;info elementi selezionati:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Seçili nesne hakkında:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="216"/>
         <source>Date and time of synchronisation</source>
-        <translation>Data e ora di sincronizzazione</translation>
+        <translation>Eşitlemenin zamanı</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="222"/>
@@ -1062,28 +935,45 @@
     <message>
         <location filename="../ui/mainwindow.ui" line="244"/>
         <source>Restore selected files</source>
-        <translation>Ripristina files selezionati</translation>
+        <translation>Seçili dosyaları geri yükle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="247"/>
         <location filename="../ui/mainwindow.ui" line="1565"/>
         <source>Restore</source>
-        <translation>Ripristina</translation>
+        <translatorcomment>çeviri: Restore</translatorcomment>
+        <translation>Geri Yükle</translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.ui" line="279"/>
+        <source>Clean temporary files automatically after each sync</source>
+        <translation>Her eşitleme sonrası geçici dosyaları temizle</translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.ui" line="291"/>
+        <source>Keep </source>
+        <translation>Son</translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.ui" line="308"/>
+        <location filename="../src/restore.cpp" line="246"/>
+        <source> latest versions</source>
+        <translation>sürümü sakla</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="351"/>
         <source>&lt;b&gt;Files in the blacklist:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Files in blacklist:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Karalistedeki dosyalar:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="380"/>
         <source>List of files in the blacklist</source>
-        <translation>Lista dei files nella blacklist</translation>
+        <translation>Karalistedeki dosyaların listesi</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="402"/>
         <source>Remove file from blacklist</source>
-        <translation>Rimuovi file dalla blacklist</translation>
+        <translation>Dosyayı karalisteden çıkar</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="405"/>
@@ -1095,12 +985,12 @@
         <location filename="../ui/mainwindow.ui" line="1222"/>
         <location filename="../src/scheduler.cpp" line="536"/>
         <source>Remove</source>
-        <translation>Rimuovi</translation>
+        <translation>Kaldır</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="416"/>
         <source>Add file to black list</source>
-        <translation>Aggiungi file nella blacklist</translation>
+        <translation>Dosyayı karalisteye ekle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="419"/>
@@ -1112,162 +1002,162 @@
         <location filename="../ui/mainwindow.ui" line="1205"/>
         <location filename="../src/scheduler.cpp" line="531"/>
         <source>Add</source>
-        <translation>Aggiungi</translation>
+        <translation>Ekle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="454"/>
         <source>&lt;b&gt;Folders in the blacklist:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Cartelle nella blacklist:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Karalistedeki klasörler:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="470"/>
         <source>List of folders in the blacklist</source>
-        <translation>Lista cartelle nella blacklist</translation>
+        <translation>Karalistedeki klasörlerin listesi</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="492"/>
         <source>Remove folder from blacklist</source>
-        <translation>Rimuovi cartella dalla blacklist</translation>
+        <translation>Klasörü karalisteden çıkar</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="506"/>
         <source>Add folder to blacklist</source>
-        <translation>Aggiungi cartella alla blacklist</translation>
+        <translation>Klasörü karalisteye ekle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="522"/>
         <source>List of extensions in the blacklist</source>
-        <translation>Lista dell&apos;estensioni nella blacklist</translation>
+        <translation>Karalistedeki uzantı listesi</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="536"/>
         <source>&lt;b&gt;Extensions in the blacklist:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Estensioni nella blacklist:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Karalistedeki uzantılar:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="545"/>
         <source>Add extension to blacklist</source>
-        <translation>Aggiungi estensione nella blacklist</translation>
+        <translation>Uzantıyı karalisteye ekle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="559"/>
         <source>Remove extension from blacklist</source>
-        <translation>Rimuovi estensioni dalla blacklist</translation>
+        <translation>Uzantıyı karalisteden çıkar</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="665"/>
         <source>&lt;b&gt;Schedules:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Pianificazioni:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Zamanlamalar:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="689"/>
         <source>List of schedules</source>
-        <translation>Lista pianificazioni</translation>
+        <translation>Zamanlamai listesi</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="712"/>
         <source>Add a schedule</source>
-        <translation>Aggiungi pianificazione</translation>
+        <translation>Zamanlama ekle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="726"/>
         <source>Remove the current schedule</source>
-        <translation>Rimuovi pianificazione corrente</translation>
+        <translation>Mevcut zamanlamayı kaldır</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="753"/>
         <source>Start all schedules</source>
-        <translation>Avvia tutte le pianificazioni</translation>
+        <translation>Tüm zamanlamaları başlat</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="756"/>
         <source>Start all</source>
-        <translation>Avvia tutto</translation>
+        <translation>Tümünü başlat</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="763"/>
         <source>Stop all schedules</source>
-        <translation>Ferma tutte le pianificazioni</translation>
+        <translation>Bütün zamanlamaları durdur</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="766"/>
         <source>Stop all</source>
-        <translation>Ferma tutto</translation>
+        <translation>Tümünü durdur</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="781"/>
         <source>Schedule options</source>
-        <translation>Opzioni pianificazione</translation>
+        <translation>Zamanlama seçenekleri</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="804"/>
         <source>Set schedule name</source>
-        <translation>Imposta nome pianificazione</translation>
+        <translation>Zamanlama ismini belirle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="848"/>
         <source>Select multisyncs to use</source>
-        <translation>Selezionare multisyncs da usare</translation>
+        <translation>Kullanılacak çoklu eşitlemeyi seçin</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="855"/>
         <source>Select syncs to use</source>
-        <translation>Selezionare syncs da usare</translation>
+        <translation>Kullanılacak eşitlemeleri seçin</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="862"/>
         <source>&lt;b&gt;Syncs to use:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Syncs da usare:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Kullanılacak eşitlemeler:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="869"/>
         <source>&lt;b&gt;Multisyncs to use:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Multisyncs da usare:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Kullanılacak çoklu eşitlemeler:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="880"/>
         <source>Stop schedule</source>
-        <translation>Ferma pianificazione</translation>
+        <translation>Zamanlamayı durdur</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="883"/>
         <source>Stop</source>
-        <translation>Ferma</translation>
+        <translation>Durdur</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="890"/>
         <source>Start schedule</source>
-        <translation>Avvia pianificazione</translation>
+        <translation>Zamanlamayı başlat</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="893"/>
         <source>Start</source>
-        <translation>Avvia</translation>
+        <translation>Başlat</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="921"/>
         <source>Sync times</source>
-        <translation>Tempi di Sync</translation>
+        <translation>Eşitleme zamanları</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="942"/>
         <source>&lt;b&gt;Times:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Tempi:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Zamanlar:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="949"/>
         <source>List of sync times</source>
-        <translation>Lista di tempi di sync</translation>
+        <translation>Eşitleme zamanları listesi</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="971"/>
         <source>Add a sync time</source>
-        <translation>Aggiungi un tempo di sync</translation>
+        <translation>Bir eşitleme zamanı ekle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="985"/>
         <source>Set sync time</source>
-        <translation>Imposta tempo di sync</translation>
+        <translation>Eşitleme zamanını belirle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="988"/>
@@ -1277,108 +1167,113 @@
     <message>
         <location filename="../ui/mainwindow.ui" line="995"/>
         <source>Remove the selected sync times</source>
-        <translation>Rimuovi i tempi di sync selezionati</translation>
+        <translation>Seçili eşitleme zamanlarını kaldır</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1015"/>
         <source>Synchronise periodically</source>
-        <translation>Sincronizza periodicamente</translation>
+        <translation>Periyodik olarak eşitle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1034"/>
         <source>Synchronise every</source>
-        <translation>Ogni sincronizzazione</translation>
+        <translation>Her</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1054"/>
         <source>minute(s)</source>
-        <translation>minuto(i)</translation>
+        <translation>dakikada bir eşitle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1109"/>
         <source>&lt;b&gt;Filters:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Filtri:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Filtreler:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1131"/>
         <source>List of filters</source>
-        <translation>Lista dei filtri</translation>
+        <translation>Filtre listesi</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1138"/>
         <source>&lt;b&gt;Extensions in the selected filter:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Estensioni nel filtro selezionato:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Seçili filtredeki uzantılar:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1145"/>
         <source>List of extensions in the selected filter</source>
-        <translation>Lista di estensioni nel filtro selezionato</translation>
+        <translation>Seçili filtredeki uzantıların listesi</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1168"/>
         <source>Add an extension</source>
-        <translation>Aggiungi un&apos;estensione</translation>
+        <translation>Bir uzantı ekle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1185"/>
         <source>Remove the current extension</source>
-        <translation>Rimuovi l&apos;estensione corrente</translation>
+        <translation>Mevcut uzantıyı kaldır</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1202"/>
         <source>Add a filter</source>
-        <translation>Aggiungi un filtro</translation>
+        <translation>Bir filtre ekle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1219"/>
         <source>Remove the current filter</source>
-        <translation>Rimuovi il filtro corrente</translation>
+        <translation>Mevcut filtreyi kaldır</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1266"/>
         <source>&lt;b&gt;Syncs:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Syncs:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Eşitlemeler:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1295"/>
         <source>List of syncs</source>
-        <translation>Lista di syncs</translation>
+        <translation>Eşitlemelerin listesi</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1319"/>
         <source>&lt;b&gt;Multisyncs:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Multisyncs:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Çoklu eşitlemeler:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1341"/>
         <source>List of multisyncs</source>
-        <translation>Lista di multisyncs</translation>
+        <translation>Çoklu eşitlemelerin listesi</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1368"/>
         <source>File</source>
-        <translation>File</translation>
+        <translation>Dosya</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1376"/>
         <source>Help</source>
-        <translation>Aiuto</translation>
+        <translation>Yardım</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1383"/>
         <source>View</source>
-        <translation>Vista</translation>
+        <translation>Görünüm</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1394"/>
         <source>Options</source>
-        <translation>Opzioni</translation>
+        <translation>Seçenekler</translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.ui" line="1408"/>
+        <source>Tab</source>
+        <translation>Sekme</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1469"/>
         <location filename="../ui/mainwindow.ui" line="1472"/>
         <source>Quit</source>
-        <translation>Esci</translation>
+        <translation>Çıkış</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1475"/>
@@ -1388,32 +1283,32 @@
     <message>
         <location filename="../ui/mainwindow.ui" line="1484"/>
         <source>About</source>
-        <translation>Info</translation>
+        <translation>Hakkında</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1487"/>
         <source>View About</source>
-        <translation>Vedi info</translation>
+        <translation>Hakkında&apos;yı görüntüle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1496"/>
         <source>Set synchronization folder 1</source>
-        <translation>Imposta cartella sincronizzazione 1</translation>
+        <translation>Eşitleme için &quot;Klasör 1&quot;&apos;i belirle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1505"/>
         <source>Set synchronization folder 2</source>
-        <translation>Imposta cartella sincronizzazione 2</translation>
+        <translation>Eşitleme için &quot;Klasör 2&quot;y&apos;i belirle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1514"/>
         <source>New tab</source>
-        <translation>Nuova tab</translation>
+        <translation>Yeni sekme</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1517"/>
         <source>Open new sync tab</source>
-        <translation>Apri nuova sync tab</translation>
+        <translation>Yeni eşitleme sekmesi aç</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1520"/>
@@ -1423,12 +1318,12 @@
     <message>
         <location filename="../ui/mainwindow.ui" line="1529"/>
         <source>Close tab</source>
-        <translation>Chiudi tab</translation>
+        <translation>Sekmeyi kapat</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1532"/>
         <source>Close current sync tab</source>
-        <translation>Chiudi sync tab corrente</translation>
+        <translation>Geçerli eşitleme sekmesini kapat</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1535"/>
@@ -1438,449 +1333,555 @@
     <message>
         <location filename="../ui/mainwindow.ui" line="1550"/>
         <source>Synchronise</source>
-        <translation>Sincronizza</translation>
+        <translation>Eşitle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1553"/>
         <source>Go to Synchronise</source>
-        <translation>Vai alla Sincronizzazione</translation>
+        <translation>Eşitlemeye git</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1568"/>
         <source>Go to Restore</source>
-        <translation>Vai al Ripristino</translation>
+        <translation>Geri yüklemeye git</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1580"/>
         <source>Blacklist</source>
-        <translation>BlackList</translation>
+        <translation>Karaliste</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1583"/>
         <source>Go to Blacklist</source>
-        <translation>Vai alla Blacklist</translation>
+        <translation>Karalisteye git</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1591"/>
         <source>Run hidden</source>
-        <translation>Esegui nascosto</translation>
+        <translation>Gizlenmiş çalıştır</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1594"/>
         <source>Start Synkron hidden</source>
-        <translation>Avvia Synkron nascosto</translation>
+        <translation>Synkron&apos;u gizlenmiş olarak başlat</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1603"/>
         <location filename="../ui/mainwindow.ui" line="1606"/>
         <source>Sync all</source>
-        <translation>Sync tutto</translation>
+        <translation>Hepsini eşitle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1615"/>
         <location filename="../ui/mainwindow.ui" line="1618"/>
         <source>Check for updates</source>
-        <translation>Cerca aggiornamenti</translation>
+        <translation>Güncellemeleri kontrol et</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1630"/>
         <source>Multisync</source>
-        <translation>Multisync</translation>
+        <translation>Çoklu Eşitle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1633"/>
         <source>Go to Multisync</source>
-        <translation>Vai a Multisync</translation>
+        <translation>Çoklu eşitlemeye git</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1645"/>
         <source>Scheduler</source>
-        <translation>Scheduler</translation>
+        <translation>Zamanlayıcı</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1648"/>
         <source>Go to Scheduler</source>
-        <translation>Vai allo Scheduler</translation>
+        <translation>Zamanlayıcıya git</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1657"/>
         <location filename="../ui/mainwindow.ui" line="1660"/>
         <source>Change language</source>
-        <translation>Cambia lingua</translation>
+        <translation>Dili değiştir</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1672"/>
         <source>Filters</source>
-        <translation>Filtri</translation>
+        <translation>Filtreler</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1675"/>
         <source>Go to Filters</source>
-        <translation>Vai ai Filtri</translation>
+        <translation>Filtrelere git</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1683"/>
         <location filename="../ui/mainwindow.ui" line="1686"/>
         <source>Disable tray icon messages</source>
-        <translation>Disattiva icona nella barra dei messaggi</translation>
+        <translation>Bildirim alanı simgelerini devre dışı bırak</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1695"/>
         <source>Save log</source>
-        <translation>Salva log</translation>
+        <translation>Olay günlüğünü kaydet</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1707"/>
         <source>SyncView</source>
-        <translation>VistaSync</translation>
+        <translation>Tüm Eşitlemeler</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1710"/>
         <source>Go to SyncView</source>
-        <translation>Vai alla VistaSync</translation>
+        <translation>Eşitleme Görünümü&apos;ne git</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1718"/>
         <source>Sync all at launch</source>
-        <translation>Sync tutto al lancio</translation>
+        <translation>Başlarken tümünü eşitle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1721"/>
         <source>Sync all tabs at launch</source>
-        <translation>Sync tutte le tabs al lancio</translation>
+        <translation>Başlarken tüm sekmeleri eşitle</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1729"/>
         <source>Shut down after synchronisation</source>
-        <translation>Arresta dopo la sincronizzazione</translation>
+        <translation>Eşitleme sonrası bilgisayarı kapat</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1732"/>
         <source>Shut down computer after synchronisation finishes</source>
-        <translation>Arresta il computer dopo che le sincronizzazioni sono finite </translation>
+        <translation>Eşitleme bittiğinde bilgisayarı kapat</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1740"/>
         <source>Quit Synkron after synchronisation</source>
-        <translation>Chiudi Synkron dopo la sincronizzazione</translation>
+        <translation>Eşitleme sonrası programı kapat</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1743"/>
         <source>Quit Synkron after synchronisation finishes</source>
-        <translation>Chiudi Synkron dopo che le sincronizzazioni sono finite</translation>
+        <translation>Eşitleme bittiğinde programı kapat</translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.ui" line="1752"/>
+        <source>Save tab</source>
+        <translation>Sekmeyi kaydet</translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.ui" line="1761"/>
+        <source>Load tab</source>
+        <translation>Sekme yükle</translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.ui" line="1770"/>
+        <source>Save tab as</source>
+        <translation>Sekmeyi farklı kaydet</translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.ui" line="1775"/>
+        <source>Change temporary folder path</source>
+        <translation>Geçici klasör yolunu değiştir</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1784"/>
         <source>Sync</source>
-        <translation>Sincronizza</translation>
+        <translation>Eşitleme</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1793"/>
         <source>Analyse</source>
-        <translation>Analizza</translation>
+        <translation>Analiz et</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="1802"/>
         <source>Advanced</source>
-        <translation>Avanzato</translation>
+        <translation>Gelişmiş Seçenekler</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="209"/>
         <source>Multisync #%1</source>
-        <translation>Multisync #%1</translation>
+        <translation>Çoklu Eşitleme #%1</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="216"/>
         <source>Source</source>
-        <translation>Sorgente</translation>
+        <translation>Kaynak</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="216"/>
         <source>Destination</source>
-        <translation>Destinazione</translation>
+        <translation>Hedef</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="219"/>
         <source>List of synchronised files and folders</source>
-        <translation>Lista dei file e cartelle sincronizzate</translation>
+        <translation>Eşitlenen dosya ve klasörlerin listesi</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="278"/>
         <source>No source selected.</source>
-        <translation>Nessuna sorgente selezionata.</translation>
+        <translation>Kaynak seçilmedi.</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="280"/>
         <source>Are you sure you want to remove the selected source from the list?</source>
-        <translation>Sei sicuro di voler cancellare la sorgente selezionata dalla lista?</translation>
+        <translation>Seçili kaynağı listeden çıkarmak istediğinizden emin misiniz?</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="124"/>
+        <source>Error removing file %1</source>
+        <translation>%1 dosyası çıkarılırken hata oluştu</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="130"/>
+        <source>Error removing directory %1</source>
+        <translation>%1 klasörü çıkarılırken hata oluştu</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="140"/>
+        <source>Are you sure you want to remove &quot;%1&quot; from every synced location?</source>
+        <translation>&quot;%1&quot; tüm eşitlenen yerlerden kaldırılacak. Emin misiniz?</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="150"/>
+        <source>Removing files...</source>
+        <translation>Dosyalar kaldırılıyor...</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="179"/>
+        <location filename="../src/other.cpp" line="210"/>
+        <location filename="../src/other.cpp" line="236"/>
+        <source>File %1 deleted</source>
+        <translation>%1 dosyası silindi</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="261"/>
+        <source>Error renaming file %1</source>
+        <translation>%1 dosyası yeniden adlandırılırken hata oluştu</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="269"/>
+        <source>Error renaming directory %1</source>
+        <translation>%1 klasörü yeniden adlandırılırken hata oluştu</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="301"/>
+        <location filename="../src/other.cpp" line="346"/>
+        <location filename="../src/other.cpp" line="372"/>
+        <source>File %1 renamed</source>
+        <translation>%1 dosyası yeniden adlandırıldı</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="452"/>
+        <source>&amp;Hide</source>
+        <translation>&amp;Gizle</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="456"/>
+        <source>S&amp;how</source>
+        <translation>&amp;Göster</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="460"/>
+        <source>Sync &amp;current tab</source>
+        <translation>Geçerli sekmeyi &amp;eşitle</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="463"/>
+        <source>Sync &amp;all tabs</source>
+        <translation>&amp;Tüm sekmeleri eşitle</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="466"/>
+        <location filename="../src/other.cpp" line="513"/>
+        <source>&amp;Quit</source>
+        <translation>Çı&amp;kış</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="469"/>
+        <source>&amp;Check/Uncheck</source>
+        <translation>Seç/Seç&amp;me</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="472"/>
+        <source>&amp;Restore</source>
+        <translation>&amp;Geri Yükle</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="475"/>
+        <source>&amp;Remove</source>
+        <translation>&amp;Kaldır</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="478"/>
+        <source>Add to &amp;blacklist</source>
+        <translation>Kara &amp;listeye ekle</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="499"/>
+        <source>Quit Synkron</source>
+        <translation>Synkron&apos;dan çık</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="503"/>
+        <source>Are you sure you want to quit?</source>
+        <translation>Programı kapatmak istediğinizden emin misiniz?</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="507"/>
+        <source>Do not ask me again</source>
+        <translation>Tekrar sorma</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="517"/>
+        <source>&amp;Minimise</source>
+        <translation>&amp;Pencereyi indir</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="549"/>
+        <source>Synkron - Save Multisync</source>
+        <translation>Synkron - Çoklu Eşitlemeyi kaydet</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="551"/>
+        <source>Sync logs (*.html)</source>
+        <translation>Eşitleme günlükleri (*.html)</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="556"/>
+        <source>Export sync log</source>
+        <translation>Eşitleme günlüğünü dışa aktar</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="556"/>
+        <source>Cannot write file %1:
+%2.</source>
+        <translation>Dosya yazılamıyor: %1
+%2.</translation>
+    </message>
+    <message>
+        <location filename="../src/other.cpp" line="562"/>
+        <source>Synkron sync log</source>
+        <translation>Synkron eşitleme olay günlüğü</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="95"/>
         <location filename="../src/restore.cpp" line="271"/>
         <source>No files selected.</source>
-        <translation>Nessun file selezionato.</translation>
+        <translation>Dosya seçilmedi.</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="97"/>
         <source>%1 files restored.</source>
-        <translation>%1 file ripristinato.</translation>
+        <translation>%1 dosya geri yüklendi.</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="110"/>
         <source>Unknown error restoring file: %1</source>
-        <translation>Errore sconosciuto ripristino file: %1</translation>
+        <translation>%1 geri yüklenirken bilinmeyen bir hata oluştu</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="206"/>
         <location filename="../src/restore.cpp" line="255"/>
         <source>Clean temporary files</source>
-        <translation>Pulizia file temporanei</translation>
+        <translation>Geçici dosyaları temizle</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="209"/>
         <location filename="../src/restore.cpp" line="210"/>
         <source>Delete selected files only</source>
-        <translation>Cancella solo i file selezionati</translation>
+        <translation>Sadece seçili dosyaları temizle</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="216"/>
         <source>Delete files older than </source>
-        <translation>Elimina file di età superiore a  </translation>
+        <translation> </translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="217"/>
         <source>Delete files older than</source>
-        <translation>Elimina file di età superiore a</translation>
+        <translation> </translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="227"/>
         <source> day(s)</source>
-        <translation> giorno(i)</translation>
+        <translation>günden daha eski dosyaları sil</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="235"/>
         <source>Delete older versions of files, keep </source>
-        <translation>Elimina le versioni precedenti di file, tenere </translation>
+        <translation>Dosyaların daha eski sürümlerini sil, bunu sakla </translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="236"/>
         <source>Delete older versions of files</source>
-        <translation>Elimina le versioni precedenti di file</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="308"/>
-        <location filename="../src/restore.cpp" line="246"/>
-        <source> latest versions</source>
-        <translation> versioni più recenti</translation>
+        <translation>Dosyaların eski sürümlerini sil</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="254"/>
         <source>Clean</source>
-        <translation>Pulisci</translation>
+        <translation>Temizle</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="274"/>
         <source>Are you sure you want to delete temporary files?</source>
-        <translation>Sei sicuro di voler eliminare i file temporanei?</translation>
+        <translation>Geçici dosyaları silmek istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="308"/>
         <source>%1 files deleted.</source>
-        <translation>%1 files eliminati.</translation>
+        <translation>%1 dosya silindi.</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="345"/>
         <source>Are you sure you want to delete the selected temporary file?</source>
-        <translation>Sei sicuro di voler eliminare il file temporaneo selezionato?</translation>
+        <translation>Seçili geçici dosyanın silinmesini istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="380"/>
         <source>Add to blacklist</source>
-        <translation>Aggiungi alla blacklist</translation>
+        <translation>Karalisteye ekle</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="382"/>
         <source>Remove from blacklist</source>
-        <translation>Rimuovi dalla blacklist</translation>
+        <translation>Karalisteden çıkar</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="471"/>
         <source>Advanced selection</source>
-        <translation>Selezione avanzata</translation>
+        <translation>Gelişmiş seçim</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="474"/>
         <location filename="../src/restore.cpp" line="479"/>
         <source>Select files from the last synchronisation</source>
-        <translation>Seleziona i files dell&apos;ultima sincronizzazione</translation>
+        <translation>Son eşitlemedeki dosyaları seç</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="483"/>
         <source>Select files with common date and time of synchronisation</source>
-        <translation>Seleziona i files con la stessa data e ora di sincronizzazione</translation>
+        <translation>Eşitleme zamanı ortak dosyaları seç</translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="489"/>
         <source>Select files synchronised on </source>
-        <translation>Seleziona i file sincronizzati su</translation>
+        <translation>Burada eşitlenmiş dosyaları seç </translation>
     </message>
     <message>
         <location filename="../src/restore.cpp" line="545"/>
         <source>Cannot write file %1: %2</source>
-        <translation>Impossibile scrivere file %1: %2</translation>
+        <translation>Dosya yazılamıyor %1: %2</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="49"/>
         <source>No schedule selected.</source>
-        <translation>Nessuna pianificazione selezionata.</translation>
+        <translation>Zamanlama seçilmedi.</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="51"/>
         <source>Are you sure you want to remove the selected schedule from the list?</source>
-        <translation>Sei sicuro di voler rimuovere la pianificazione selezionata dalla lista?</translation>
+        <translation>Seçili zamanlamayı listeden çıkarmak istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="150"/>
         <source>No sync time selected.</source>
-        <translation>Nessun sync time selezionato.</translation>
+        <translation>Eşitleme zamanı seçilmedi.</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="259"/>
         <source>Off</source>
-        <translation>Off</translation>
+        <translation>Pasif</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="263"/>
         <source>On</source>
-        <translation>On</translation>
+        <translation>Aktif</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="493"/>
         <source>Dates/Days</source>
-        <translation>Date/Giorni</translation>
+        <translation>Tarihler/Günler</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="500"/>
         <source>Monday</source>
-        <translation>Lunedì</translation>
+        <translation>Pazartesi</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="503"/>
         <source>Tuesday</source>
-        <translation>Martedì</translation>
+        <translation>Salı</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="506"/>
         <source>Wednesday</source>
-        <translation>Mercoledì</translation>
+        <translation>Çarşamba</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="509"/>
         <source>Thursday</source>
-        <translation>Giovedì</translation>
+        <translation>Perşembe</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="512"/>
         <source>Friday</source>
-        <translation>Venerdì</translation>
+        <translation>Cuma</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="515"/>
         <source>Saturday</source>
-        <translation>Sabato</translation>
+        <translation>Cumartesi</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="518"/>
         <source>Sunday</source>
-        <translation>Domenica</translation>
+        <translation>Pazar</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="556"/>
         <source>No sync date selected.</source>
-        <translation>Nessuna sync data selezionata.</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="34"/>
-        <source>Sync #%1</source>
-        <translation>Sync #%1</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="1288"/>
-        <source>Synchronisation complete</source>
-        <translation>Sincronizzazione Completa</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="1288"/>
-        <source>%1 files synchronised</source>
-        <translation>%1 files sincronizzati</translation>
+        <translation>Eşitleme tarihi seçilmedi.</translation>
     </message>
     <message>
         <location filename="../src/settings.cpp" line="265"/>
         <location filename="../src/settings.cpp" line="372"/>
         <source>Last synced on %1</source>
-        <translation>Ultima sincronizzazione su: %1</translation>
+        <translation>Son eşitleme: %1</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="1408"/>
-        <source>Tab</source>
-        <translation>Tab</translation>
+        <location filename="../src/sync.cpp" line="34"/>
+        <source>Sync #%1</source>
+        <translation>Eşitleme #%1</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="1752"/>
-        <source>Save tab</source>
-        <translation>Salva tab</translation>
+        <location filename="../src/sync.cpp" line="1288"/>
+        <source>Synchronisation complete</source>
+        <translation>Eşitleme tamamlandı</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="1761"/>
-        <source>Load tab</source>
-        <translation>Carica tab</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="1770"/>
-        <source>Save tab as</source>
-        <translation>Salva tab come</translation>
-    </message>
-    <message>
-        <location filename="../src/mainwindow.cpp" line="326"/>
-        <source>Are you sure you want to close this tab?</source>
-        <translation>Sei sicuro di voler chiudere questa scheda?</translation>
+        <location filename="../src/sync.cpp" line="1288"/>
+        <source>%1 files synchronised</source>
+        <translation>%1 dosya eşitlendi</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="384"/>
         <source>Open File</source>
-        <translation>Apri File</translation>
+        <translation>Dosya aç</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="386"/>
         <source>Synkron Tabs (*.slist)</source>
-        <translation>Synkron Tabs (*.slist)</translation>
+        <translation>Synkron sekmeleri (*.slist)</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="396"/>
         <source>Cannot read file %1:
 %2.</source>
-        <translation>Impossibile leggere file %1:
+        <translation>Dosya okunamıyor. %1:
 %2.</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="1775"/>
-        <source>Change temporary folder path</source>
-        <translation>Cambia percorso cartella temporanea</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="279"/>
-        <source>Clean temporary files automatically after each sync</source>
-        <translation>Pulisci i file temporanei dopo ogni sincronizzazione</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="291"/>
-        <source>Keep </source>
-        <translation>Tieni</translation>
-    </message>
-    <message>
-        <location filename="../src/mainwindow.cpp" line="118"/>
-        <source>Show icons only</source>
-        <translation>Visualizza solo icone</translation>
     </message>
 </context>
 <context>
@@ -1888,88 +1889,88 @@
     <message>
         <location filename="../ui/multisyncpage.ui" line="14"/>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>Pencere</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="79"/>
         <source>Set multisync name</source>
-        <translation>Imposta nome multisync</translation>
+        <translation>Çoklu Eşitleme adını girin</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="128"/>
         <source>&lt;b&gt;Sources:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Sorgenti:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Kaynaklar:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="138"/>
         <source>List of multisync sources</source>
-        <translation>Lista di sorgenti multisync</translation>
-    </message>
-    <message>
-        <location filename="../ui/multisyncpage.ui" line="211"/>
-        <source>&lt;b&gt;Destination:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Destinazione:&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../ui/multisyncpage.ui" line="218"/>
-        <source>Set a destination</source>
-        <translation>Imposta una destinazione</translation>
+        <translation>Çoklu eşitleme kaynakları listesi</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="149"/>
         <source>Add source</source>
-        <translation>Aggiungi sorgente</translation>
+        <translation>Kaynak ekle</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="152"/>
         <source>Add</source>
-        <translation>Aggiungi</translation>
+        <translation>Ekle</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="163"/>
         <source>Remove source</source>
-        <translation>Rimuovi sorgente</translation>
+        <translation>Kaynağı kaldır</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="166"/>
         <source>Remove</source>
-        <translation>Rimuovi</translation>
+        <translation>Kaldır</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="177"/>
         <source>Modify source path variables</source>
         <extracomment>Modify the variables for the paths of Multisync sources</extracomment>
-        <translation>Modifica del path sorgente delle variabili</translation>
+        <translation>Kaynak adresi parametrelerini değiştir</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="180"/>
         <source>Variables</source>
-        <translation>Variabili</translation>
+        <translation>Parametreler</translation>
+    </message>
+    <message>
+        <location filename="../ui/multisyncpage.ui" line="211"/>
+        <source>&lt;b&gt;Destination:&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Hedef:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <location filename="../ui/multisyncpage.ui" line="218"/>
+        <source>Set a destination</source>
+        <translation>Bir hedef belirle</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="225"/>
         <source>Browse for destination</source>
-        <translation>Sfoglia per destinazione</translation>
+        <translation>Hedef için gözat</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="228"/>
         <source>Browse</source>
-        <translation>Sfoglia</translation>
+        <translation>Gözat</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="248"/>
         <source>Search sync log</source>
-        <translation>Cerca sync log</translation>
+        <translation>Eşitleme günlüğünde ara</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="251"/>
         <source>Search</source>
-        <translation>Cerca</translation>
+        <translation>Ara</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="277"/>
         <source>Multisync log</source>
-        <translation>Multisync log</translation>
+        <translation>Çoklu eşitleme günlüğü</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="306"/>
@@ -1979,34 +1980,34 @@
     <message>
         <location filename="../ui/multisyncpage.ui" line="342"/>
         <source>Start multisync</source>
-        <translation>Avvia multisync</translation>
+        <translation>Çoklu eşitlemeyi başlat</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="345"/>
         <source>Multisync</source>
-        <translation>Multisync</translation>
+        <translation>Çoklu Eşitle</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="356"/>
         <location filename="../ui/multisyncpage.ui" line="359"/>
         <source>Stop multisync</source>
-        <translation>Ferma multisync</translation>
+        <translation>Çoklu eşitlemeyi durdur</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="370"/>
         <location filename="../ui/multisyncpage.ui" line="373"/>
         <source>Analyse</source>
-        <translation>Analizza</translation>
+        <translation>Analiz et</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="384"/>
         <source>Show advanced options of configuration</source>
-        <translation>Visualizza le opzioni avanzate di configurazione</translation>
+        <translation>Konfigürasyonun ileri seviye seçeneklerini göster</translation>
     </message>
     <message>
         <location filename="../ui/multisyncpage.ui" line="387"/>
         <source>Advanced</source>
-        <translation>Avanzato</translation>
+        <translation>Gelişmiş</translation>
     </message>
 </context>
 <context>
@@ -2014,114 +2015,172 @@
     <message>
         <location filename="../src/analyse.cpp" line="70"/>
         <source>File name</source>
-        <translation>Nome file</translation>
+        <translation>Dosya adı</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="71"/>
         <source>Source</source>
-        <translation>Sorgente</translation>
+        <translation>Kaynak</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="72"/>
         <location filename="../src/multisync.cpp" line="160"/>
         <source>Destination</source>
-        <translation>Destinazione</translation>
+        <translation>Hedef</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="98"/>
         <location filename="../src/analyse.cpp" line="164"/>
         <source>Root directory</source>
-        <translation>Directory principale</translation>
+        <translation>Kök klasör</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="110"/>
+        <location filename="../src/analyse.cpp" line="132"/>
+        <source>NOT FOUND</source>
+        <translation>BULUNAMADI</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="164"/>
+        <source>%1 files and folders need to be synchronised</source>
+        <translation>%1 dosya ve klasörün eşitlenmesi gerekiyor</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="39"/>
+        <source>Press the &quot;Multisync&quot; button to start synchronisation</source>
+        <translation>Eşitlemeye başlamak için &quot;Çoklu eşitleme&quot; düğmesine basın</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="63"/>
         <location filename="../src/multisync.cpp" line="64"/>
         <source>Synchronise hidden files and folders</source>
-        <translation>Sincronizza file e cartelle nascoste</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="93"/>
-        <location filename="../src/multisync.cpp" line="94"/>
-        <source>Propagate deletions</source>
-        <translation>Propagare la cancellazione</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="75"/>
-        <location filename="../src/multisync.cpp" line="76"/>
-        <source>Do not synchronise subdirectories</source>
-        <translation>Non sincronizzare le subdirectories</translation>
+        <translation>Gizli dosya ve klasörleri de eşitlensin</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="69"/>
         <location filename="../src/multisync.cpp" line="70"/>
         <source>Do not create empty folders</source>
-        <translation>Non creare cartelle vuote</translation>
+        <translation>Boş klasör oluşturulmasın</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="75"/>
+        <location filename="../src/multisync.cpp" line="76"/>
+        <source>Do not synchronise subdirectories</source>
+        <translation>Alt klasörler eşitlenmesin</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="81"/>
         <location filename="../src/multisync.cpp" line="82"/>
         <source>Ignore blacklist</source>
-        <translation>Ignora blacklist</translation>
+        <translation>Karaliste görmezden gelinsin</translation>
     </message>
     <message>
-        <location filename="../src/multisync.cpp" line="121"/>
-        <source>Advanced options for the analysis</source>
-        <translation>Opzioni avanzate per l&apos;analisi</translation>
+        <location filename="../src/multisync.cpp" line="87"/>
+        <source>Ignore 1 hour difference</source>
+        <translation>1 saat içindeki değişiklikler gözardı edilsin</translation>
     </message>
     <message>
-        <location filename="../src/multisync.cpp" line="184"/>
-        <source>Edit blacklist</source>
-        <translation>Edita blacklist</translation>
+        <location filename="../src/multisync.cpp" line="88"/>
+        <source>Due to Daylight Saving Time (DST), files may have 1 hour delta</source>
+        <translation>Yaz saati uygulaması sebebiyle dosyalar 1 saatlik farklara sahip olabilir</translation>
     </message>
     <message>
-        <location filename="../src/multisync.cpp" line="185"/>
-        <source>Edit blacklist for this tab</source>
-        <translation>Edita blacklist per questa tab</translation>
+        <location filename="../src/multisync.cpp" line="93"/>
+        <location filename="../src/multisync.cpp" line="94"/>
+        <source>Propagate deletions</source>
+        <translation>Silme işlemleri hedeflerde uygulansın</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="101"/>
+        <source>Detect collisions</source>
+        <translation>Çakışmalar tespit edilsin</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="102"/>
+        <source>Detect and alert collided files</source>
+        <translation>Çakışan dosyaları tespit et ve uyar</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="113"/>
         <location filename="../src/multisync.cpp" line="114"/>
         <source>Follow symbolic links</source>
-        <translation>Follow symbolic links</translation>
+        <translation>Sembolik bağlantıları takip et</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="120"/>
+        <source>Analysis</source>
+        <translation>Analiz et</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="121"/>
+        <source>Advanced options for the analysis</source>
+        <translation>Analiz için gelişmiş seçenekler</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="124"/>
+        <location filename="../src/multisync.cpp" line="126"/>
+        <source>Fast analysis</source>
+        <translation>Hızlı analiz</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="129"/>
+        <location filename="../src/multisync.cpp" line="131"/>
+        <source>List files which need to be synchronised only</source>
+        <translation>Sadece eşitlemeye ihtiyaç duyan dosyaların listesi</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="137"/>
+        <source>Sources</source>
+        <translation>Kaynaklar</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="138"/>
+        <source>Advanced options for the sources</source>
+        <translation>Kaynaklar için gelişmiş seçenekler</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="141"/>
         <location filename="../src/multisync.cpp" line="164"/>
         <source>Do not backup updated files</source>
-        <translation>Non fare il backup dei file aggiornati</translation>
+        <translation>Güncellenmiş dosyaları yedekleme</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="143"/>
         <source>Do not backup updated files from sources</source>
-        <translation>Non fare il backup dei file aggiornati dalla sorgente</translation>
+        <translation>Kaynaklardan güncellenmiş dosyaları yedekleme</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="146"/>
         <location filename="../src/multisync.cpp" line="169"/>
         <source>Update existing files only</source>
-        <translation>Aggiorna solamente i file esistenti</translation>
+        <translation>Sadece mevcut dosyaları güncelle</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="148"/>
         <source>Update existing files in sources only</source>
-        <translation>Aggiorna solamente i file esistenti nella sorgente</translation>
+        <translation>Sadece kaynaklarda mevcut olan dosyaları güncelle</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="151"/>
         <location filename="../src/multisync.cpp" line="153"/>
         <location filename="../src/multisync.cpp" line="481"/>
         <source>Move contents to destination, leaving sources empty</source>
-        <translation>Sposta i contenuti in destinazione, lasciando vuota la sorgente</translation>
+        <translation>Kaynakları boşaltarak içeriği hedefe taşı</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="161"/>
+        <source>Advanced options for the destination</source>
+        <translation>Hedef için gelişmiş seçenekler</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="166"/>
         <source>Do not backup updated files from destination</source>
-        <translation>Non fare il backup dei file aggiornati dalla destinazione</translation>
+        <translation>Hedeften güncellenen dosyaları yedekleme</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="171"/>
         <source>Update existing files in destination only</source>
-        <translation>Aggiorna solamente i file esistenti in destinazione</translation>
+        <translation>Mevcut dosyaları sadece hedefte güncelle</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="174"/>
@@ -2129,44 +2188,32 @@
         <location filename="../src/multisync.cpp" line="496"/>
         <location filename="../src/multisync.cpp" line="497"/>
         <source>Clone sources</source>
-        <translation>Clona sorgenti</translation>
+        <translation>Kaynakları klonla</translation>
     </message>
     <message>
-        <location filename="../src/multisync.cpp" line="124"/>
-        <location filename="../src/multisync.cpp" line="126"/>
-        <source>Fast analysis</source>
-        <translation>Analisi veloce</translation>
+        <location filename="../src/multisync.cpp" line="184"/>
+        <source>Edit blacklist</source>
+        <translation>Karalisteyi düzenle</translation>
     </message>
     <message>
-        <location filename="../src/multisync.cpp" line="87"/>
-        <source>Ignore 1 hour difference</source>
-        <translation>Ignora 1 ora di differenza</translation>
+        <location filename="../src/multisync.cpp" line="185"/>
+        <source>Edit blacklist for this tab</source>
+        <translation>Bu sekme için karalisteyi düzenle</translation>
     </message>
     <message>
-        <location filename="../src/multisync.cpp" line="88"/>
-        <source>Due to Daylight Saving Time (DST), files may have 1 hour delta</source>
-        <translation>A causa dell&apos;ora legale, i file potrebbero avere 1 ora di differenza</translation>
+        <location filename="../src/multisync.cpp" line="191"/>
+        <source>Change allowed time difference</source>
+        <translation>İzin verilen zaman farkını değiştir</translation>
     </message>
     <message>
-        <location filename="../src/multisync.cpp" line="129"/>
-        <location filename="../src/multisync.cpp" line="131"/>
-        <source>List files which need to be synchronised only</source>
-        <translation>Elenco dei file che devono essere solo sincronizzati </translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="138"/>
-        <source>Advanced options for the sources</source>
-        <translation>Opzioni avanzate per le sorgenti</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="161"/>
-        <source>Advanced options for the destination</source>
-        <translation></translation>
+        <location filename="../src/multisync.cpp" line="192"/>
+        <source>Change the allowed time difference between synchronised files</source>
+        <translation>Eşitlenen dosyalar arasındaki zaman farkını değiştir</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="308"/>
         <source>%1    Synchronisation failed: Choose a destination first</source>
-        <translation>%1                            Sincronizzazione fallita: Scegli una destinazione prima</translation>
+        <translation>%1    Eşitleme yapılamadı: Önce bir hedef seçin</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="315"/>
@@ -2177,272 +2224,226 @@
     <message>
         <location filename="../src/multisync.cpp" line="315"/>
         <source>No sources selected.</source>
-        <translation>Nessuna sorgente selezionata.</translation>
+        <translation>Kaynak seçilmedi.</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="337"/>
+        <source>%1	Synchronisation started</source>
+        <translation>%1 Eşitleme başladı</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="345"/>
         <location filename="../src/multisync.cpp" line="376"/>
         <source>%1	Synchronisation failed: Failed to create directory %2</source>
-        <translation>%1	Sincronizzazione fallita: Creazione directory fallita %2</translation>
+        <translation>%1	Eşitleme yapılamadı: %2 klasörü oluşturulamadı</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="348"/>
         <location filename="../src/multisync.cpp" line="379"/>
         <source>%1	Directory %2 created</source>
-        <translation>%1	Directory %2 creata</translation>
+        <translation>%1	%2 klasörü oluşturuldu</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="358"/>
         <source>%1	Synchronisation failed: Error creating directory in %2</source>
-        <translation>%1	Sincronizzazione fallita: Errore creazione directory in %2</translation>
+        <translation>%1	Eşitleme yapılamadı: %2 içinde klasör oluşturulamadı</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="398"/>
+        <source>Moving</source>
+        <translation>Taşınıyor</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="401"/>
+        <source>Searching for changes</source>
+        <translation>Değişiklikler tespit ediliyor</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="411"/>
         <source>%1	%2: %3 file(s) %4</source>
-        <translation>%1	%2: %3 file(s) %4</translation>
+        <translation>%1	%2: %3 dosya %4</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="411"/>
         <location filename="../src/multisync.cpp" line="425"/>
         <source>moved</source>
-        <translation>spostato</translation>
+        <translation>taşındı</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="411"/>
         <location filename="../src/multisync.cpp" line="425"/>
         <source>synchronised</source>
-        <translation>sincronizzato</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="425"/>
-        <source>Synchronisation complete</source>
-        <translation>Sincronizzazione completata</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="425"/>
-        <source>%1 file(s) %2</source>
-        <translation>%1 file(s) %2</translation>
-    </message>
-    <message>
-        <location filename="../src/tabs.cpp" line="301"/>
-        <source>Cannot write file %1:
-%2.</source>
-        <translation>Impossibile scrivere %1:
-%2.</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="480"/>
-        <source>Move contents</source>
-        <translation>Spostare il contenuto</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="483"/>
-        <location filename="../src/multisync.cpp" line="499"/>
-        <source>Multisync</source>
-        <translation>Multisync</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="484"/>
-        <location filename="../src/multisync.cpp" line="500"/>
-        <source>Start multisync</source>
-        <translation>Avvia multisync</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="534"/>
-        <location filename="../src/multisync.cpp" line="576"/>
-        <source>Variables</source>
-        <translation>Variabili</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="541"/>
-        <source>Variable name</source>
-        <translation>Nome variabile</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="542"/>
-        <source>Folder</source>
-        <translation>Cartella</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="555"/>
-        <source>Add</source>
-        <translation>Aggiungi</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="560"/>
-        <source>Remove</source>
-        <translation>Rimuovi</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="564"/>
-        <source>Close</source>
-        <translation>Chiudi</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="581"/>
-        <source>Variable name:</source>
-        <translation>Nome Variabile:</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="587"/>
-        <source>Folder:</source>
-        <translation>Cartella:</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="39"/>
-        <source>Press the &quot;Multisync&quot; button to start synchronisation</source>
-        <translation>Premi il bottone &quot;Multisync&quot; per avviare la sincronizzazione</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="398"/>
-        <source>Moving</source>
-        <translation>Spostamento</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="401"/>
-        <source>Searching for changes</source>
-        <translation>Ricerca per modifiche</translation>
+        <translation>eşitlendi</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="413"/>
         <location filename="../src/tabs.cpp" line="336"/>
         <source>Last synced on %1</source>
-        <translation>Ultima sincronizzazione su %1</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="191"/>
-        <source>Change allowed time difference</source>
-        <translation>Cambia la differenza di tempo permessa</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="192"/>
-        <source>Change the allowed time difference between synchronised files</source>
-        <translation>Cambia la differenza di tempo permessa tra file sincronizzati</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="101"/>
-        <source>Detect collisions</source>
-        <translation>Rileva collisioni</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="102"/>
-        <source>Detect and alert collided files</source>
-        <translation>Rileva ed avvisa file in collisione</translation>
-    </message>
-    <message>
-        <location filename="../src/multisync.cpp" line="337"/>
-        <source>%1	Synchronisation started</source>
-        <translation>%1	Sincronizzazione avviata</translation>
+        <translation>Son eşitleme %1</translation>
     </message>
     <message>
         <location filename="../src/multisync.cpp" line="419"/>
         <source>%1 repeated temporary files deleted</source>
-        <translation>%1File temporanei ripetuti eliminati</translation>
+        <translation>%1 tekrarlanan geçici dosyalar silindi</translation>
     </message>
     <message>
-        <location filename="../src/analyse.cpp" line="110"/>
-        <location filename="../src/analyse.cpp" line="132"/>
-        <source>NOT FOUND</source>
-        <translation>NON TROVATO</translation>
+        <location filename="../src/multisync.cpp" line="425"/>
+        <source>Synchronisation complete</source>
+        <translation>Eşitleme tamamlandı</translation>
     </message>
     <message>
-        <location filename="../src/analyse.cpp" line="164"/>
-        <source>%1 files and folders need to be synchronised</source>
-        <translation>%1 files e cartelle devono essere sincronizzati</translation>
+        <location filename="../src/multisync.cpp" line="425"/>
+        <source>%1 file(s) %2</source>
+        <translation>%1 dosya %2</translation>
     </message>
     <message>
-        <location filename="../src/multisync.cpp" line="120"/>
-        <source>Analysis</source>
-        <translation>Analisi</translation>
+        <location filename="../src/multisync.cpp" line="480"/>
+        <source>Move contents</source>
+        <translation>İçeriği taşı</translation>
     </message>
     <message>
-        <location filename="../src/multisync.cpp" line="137"/>
-        <source>Sources</source>
-        <translation>Sorgenti</translation>
+        <location filename="../src/multisync.cpp" line="483"/>
+        <location filename="../src/multisync.cpp" line="499"/>
+        <source>Multisync</source>
+        <translation>Çoklu Eşitle</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="484"/>
+        <location filename="../src/multisync.cpp" line="500"/>
+        <source>Start multisync</source>
+        <translation>Çoklu eşitlemeyi başlat</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="534"/>
+        <location filename="../src/multisync.cpp" line="576"/>
+        <source>Variables</source>
+        <translation>Değişkenler</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="541"/>
+        <source>Variable name</source>
+        <translation>Değişken ismi</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="542"/>
+        <source>Folder</source>
+        <translation>Klasör</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="555"/>
+        <source>Add</source>
+        <translation>Ekle</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="560"/>
+        <source>Remove</source>
+        <translation>Kaldır</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="564"/>
+        <source>Close</source>
+        <translation>Kapat</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="581"/>
+        <source>Variable name:</source>
+        <translation>Değişken ismi:</translation>
+    </message>
+    <message>
+        <location filename="../src/multisync.cpp" line="587"/>
+        <source>Folder:</source>
+        <translation>Klasör:</translation>
+    </message>
+    <message>
+        <location filename="../src/tabs.cpp" line="301"/>
+        <source>Cannot write file %1:
+%2.</source>
+        <translation>%1 dosyası yazılamadı:
+%2.</translation>
     </message>
 </context>
 <context>
     <name>SyncFolder</name>
     <message>
-        <location filename="../src/syncfolders.cpp" line="198"/>
-        <source>Remove</source>
-        <translation>Rimuovi</translation>
-    </message>
-    <message>
-        <location filename="../src/syncfolders.cpp" line="222"/>
-        <location filename="../src/syncfolders.cpp" line="223"/>
-        <source>Browse</source>
-        <translation>Sfoglia</translation>
-    </message>
-    <message>
-        <location filename="../src/syncfolders.cpp" line="172"/>
-        <source>Do not modify the contents of this folder</source>
-        <translation>Non modificare il contenuto di questa cartella</translation>
-    </message>
-    <message>
         <location filename="../src/syncfolders.cpp" line="157"/>
         <source>Configure folder</source>
-        <translation>Configura cartella</translation>
+        <translation>Klasörü yapılandır</translation>
     </message>
     <message>
         <location filename="../src/syncfolders.cpp" line="168"/>
         <location filename="../src/syncfolders.cpp" line="169"/>
         <source>Do not create empty folders</source>
-        <translation>Non creare cartelle vuote</translation>
+        <translation>Boş klasör oluşturma</translation>
+    </message>
+    <message>
+        <location filename="../src/syncfolders.cpp" line="172"/>
+        <source>Do not modify the contents of this folder</source>
+        <translation>Bu klasörün içeriğini değiştirme</translation>
     </message>
     <message>
         <location filename="../src/syncfolders.cpp" line="174"/>
         <source>Do not make any changes to this folder</source>
-        <translation>Non apportare alcuna modifica a questa cartella</translation>
+        <translation>Bu klasörde hiç bir değişiklik yapma</translation>
     </message>
     <message>
         <location filename="../src/syncfolders.cpp" line="176"/>
         <location filename="../src/syncfolders.cpp" line="178"/>
         <source>Update existing files only</source>
-        <translation>Aggiorna solo i file esistenti</translation>
+        <translation>Sadece mevcut dosyaları güncelle</translation>
     </message>
     <message>
         <location filename="../src/syncfolders.cpp" line="180"/>
         <location filename="../src/syncfolders.cpp" line="181"/>
         <source>Do not backup updated files</source>
-        <translation>Non fare il backup dei file aggiornati</translation>
+        <translation>Güncellenen dosyaları yedekleme</translation>
     </message>
     <message>
         <location filename="../src/syncfolders.cpp" line="185"/>
         <source>Master</source>
-        <translation>Principale</translation>
+        <translation>Ana öğe</translation>
     </message>
     <message>
         <location filename="../src/syncfolders.cpp" line="186"/>
         <source>Use this folder as master</source>
-        <translation>Usa questa cartella come principale</translation>
+        <translation>Bu klasörü ana klasör olarak kullan</translation>
     </message>
     <message>
         <location filename="../src/syncfolders.cpp" line="190"/>
         <source>Slave</source>
-        <translation>Secondario</translation>
+        <translation>Alt öğe</translation>
     </message>
     <message>
         <location filename="../src/syncfolders.cpp" line="191"/>
         <source>Use this folder as slave</source>
-        <translation>Usa questa cartella come secondaria</translation>
+        <translation>Bu klasörü alt klasör olarak kullan</translation>
+    </message>
+    <message>
+        <location filename="../src/syncfolders.cpp" line="198"/>
+        <source>Remove</source>
+        <translation>Kaldır</translation>
     </message>
     <message>
         <location filename="../src/syncfolders.cpp" line="199"/>
         <source>Remove this folder</source>
-        <translation>Rimuovi questa cartella</translation>
+        <translation>Bu klasörü kaldır</translation>
     </message>
     <message>
         <location filename="../src/syncfolders.cpp" line="210"/>
         <location filename="../src/syncfolders.cpp" line="211"/>
         <source>Folder label</source>
-        <translation>Etichetta cartella</translation>
+        <translation>Klasör ismi</translation>
     </message>
     <message>
         <location filename="../src/syncfolders.cpp" line="216"/>
         <location filename="../src/syncfolders.cpp" line="217"/>
         <source>Folder path</source>
-        <translation>Percorso cartella</translation>
+        <translation>Klasör adresi</translation>
+    </message>
+    <message>
+        <location filename="../src/syncfolders.cpp" line="222"/>
+        <location filename="../src/syncfolders.cpp" line="223"/>
+        <source>Browse</source>
+        <translation>Gözat</translation>
     </message>
 </context>
 <context>
@@ -2450,65 +2451,118 @@
     <message>
         <location filename="../src/syncfolders.cpp" line="60"/>
         <source>Folder %1</source>
-        <translation>Cartella %1</translation>
+        <translation>Klasör %1</translation>
     </message>
 </context>
 <context>
     <name>SyncPage</name>
     <message>
-        <location filename="../src/analyse.cpp" line="453"/>
-        <source>There is nothing to be done</source>
-        <translation>Non vi è nulla da fare</translation>
-    </message>
-    <message>
-        <location filename="../src/analyse.cpp" line="456"/>
-        <source>Skipped files (%1)</source>
-        <translation>File saltati (%1)</translation>
-    </message>
-    <message>
-        <location filename="../src/analyse.cpp" line="458"/>
-        <source>Skipped folders (%1)</source>
-        <translation>Cartelle saltate  (%1)</translation>
-    </message>
-    <message>
         <location filename="../src/analyse.cpp" line="26"/>
         <source>&lt;b&gt;Analysis:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Analisi:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Analiz:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="30"/>
         <source>File name</source>
-        <translation>Nome file</translation>
+        <translation>Dosya adı</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="171"/>
         <location filename="../src/sync.cpp" line="93"/>
         <source>&lt;b&gt;Sync log:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Sync log:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Eşitleme günlüğü:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="212"/>
         <location filename="../src/analyse.cpp" line="232"/>
         <source>Root directory</source>
-        <translation>Directory radice</translation>
+        <translation>Kök klasör</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="219"/>
+        <source>NOT FOUND</source>
+        <translation>BULUNAMADI</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="232"/>
+        <source>%1 files and folders need to be synchronised</source>
+        <translation>%1 dosya ve klasörün güncellenmesi gerekiyor</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="441"/>
+        <source>Files to copy (%1)</source>
+        <translation>Kopyalanacak dosya sayısı (%1)</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="443"/>
+        <source>Files to update (%1)</source>
+        <translation>Güncellenecek dosya sayısı(%1)</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="445"/>
+        <source>Collided files (%1)</source>
+        <translation>Çakışan dosya sayısı (%1)</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="447"/>
+        <source>Files to delete (%1)</source>
+        <translation>Silinecek dosya sayısı (%1)</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="449"/>
+        <source>Folders to create (%1)</source>
+        <translation>Oluşturulacak klasör sayısı (%1)</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="451"/>
+        <source>Folders to delete (%1)</source>
+        <translation>Silinecek klasör sayısı (%1)</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="453"/>
+        <source>There is nothing to be done</source>
+        <translation>Yapılması gereken hiç bir şey bulunamadı</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="456"/>
+        <source>Skipped files (%1)</source>
+        <translation>Pas geçilen dosyalar (%1)</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="458"/>
+        <source>Skipped folders (%1)</source>
+        <translation>Pas geçilen klasörler (%1)</translation>
+    </message>
+    <message>
+        <source>Skipped files and folders (%1)</source>
+        <translation type="obsolete">Es geçilen dosya ve klasör sayısı (%1)</translation>
+    </message>
+    <message>
+        <location filename="../src/analyse.cpp" line="497"/>
+        <source>From %1 to %2</source>
+        <translation>%1&apos;den %2&apos;ye</translation>
+    </message>
+    <message>
+        <source>%1</source>
+        <translation type="obsolete">%1</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="986"/>
         <location filename="../src/analyse.cpp" line="995"/>
         <source>%1 Failed to create directory %2</source>
-        <translation>%1 Creazione directory fallita %2</translation>
+        <translation>%1 Klasör oluşturulamadı %2</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="989"/>
         <location filename="../src/analyse.cpp" line="998"/>
         <source>%1 Directory %2 created</source>
-        <translation>%1 Directory %2 creata</translation>
+        <translation>%1&quot; %2 klasörü oluşturuldu</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="1021"/>
         <location filename="../src/sync.cpp" line="499"/>
         <source>%1	Synchronisation complete: %2 file(s) %3</source>
-        <translation>%1	Syincronizzazione completa: %2 file(s) %3</translation>
+        <translation>%1	Eşitleme tamamlandı: %2 dosya %3</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="1021"/>
@@ -2516,273 +2570,278 @@
         <location filename="../src/sync.cpp" line="499"/>
         <location filename="../src/sync.cpp" line="501"/>
         <source>synchronised</source>
-        <translation>sincronizzato</translation>
+        <translation>eşitlendi</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="1022"/>
         <location filename="../src/sync.cpp" line="501"/>
         <source>Synchronisation complete</source>
-        <translation>Sincronizzazione completata</translation>
+        <translation>Eşitleme tamamlandı</translation>
     </message>
     <message>
         <location filename="../src/analyse.cpp" line="1022"/>
         <location filename="../src/sync.cpp" line="501"/>
         <source>%1 files %2</source>
-        <translation>%1 files %2</translation>
+        <translation>%1 dosya %2</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="58"/>
         <source>Set sync name</source>
-        <translation>Imposta nome sync</translation>
+        <translation>Eşitleme adını belirle</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="68"/>
         <source>Add</source>
-        <translation>Aggiungi</translation>
+        <translation>Ekle</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="74"/>
         <source>Show/hide sync folders</source>
-        <translation>Visualizza/nascondi cartelle sincronizzate</translation>
+        <translation>Eşitleme klasörlerini göster/gizle</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="78"/>
         <source>&lt;b&gt;Sync folders:&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Cartelle sincronizzate:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Eşitleme klasörleri:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="98"/>
         <source>Search sync log</source>
-        <translation>Cerca sync log</translation>
+        <translation>Eşitleme günlüğünde ara</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="99"/>
         <source>Search</source>
-        <translation>Cerca</translation>
+        <translation>Ara</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="105"/>
         <source>Source</source>
-        <translation>Sorgente</translation>
+        <translation>Kaynak</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="105"/>
         <source>Destination</source>
-        <translation>Destinazione</translation>
+        <translation>Hedef</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="109"/>
         <source>List of synchronised files and folders</source>
-        <translation>Lista dei files e cartelle sincronizzate</translation>
+        <translation>Eşitlenen dosya ve klasörlerin listesi</translation>
     </message>
     <message>
-        <location filename="../src/sync.cpp" line="142"/>
-        <source>Show advanced options of configuration</source>
-        <translation>Visualizza le opzioni avanzate di configurazione</translation>
+        <location filename="../src/sync.cpp" line="117"/>
+        <source>Press the &quot;Sync&quot; button to start synchronisation</source>
+        <translation>Eşitlemeyi başlatmak için &quot;Eşitle&quot; düğmesine basın</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="141"/>
+        <location filename="../src/sync.cpp" line="170"/>
+        <source>Advanced</source>
+        <translation>Gelişmiş Seçenekler</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="147"/>
         <location filename="../src/sync.cpp" line="148"/>
         <source>Analyse</source>
-        <translation>Analizza</translation>
+        <translation>Analiz et</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="153"/>
         <location filename="../src/sync.cpp" line="1411"/>
         <source>Sync</source>
-        <translation>Sync</translation>
+        <translation>Eşitle</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="154"/>
         <location filename="../src/sync.cpp" line="1412"/>
         <source>Synchronise</source>
-        <translation>Sincronizza</translation>
+        <translation>Eşitle</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="160"/>
         <source>Stop sync</source>
-        <translation>Ferma sync</translation>
+        <translation>Eşitlemeyi durdur</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="161"/>
         <source>Stop synchronisation</source>
-        <translation>Ferma sincronizzazione</translation>
+        <translation>Eşitlemeyi durdur</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="175"/>
         <location filename="../src/sync.cpp" line="176"/>
         <source>Synchronise hidden files and folders</source>
-        <translation>Sincronizza files e cartelle nascoste</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="210"/>
-        <source>Ignore 1 hour difference</source>
-        <translation>Ignora 1 ora di differenza</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="223"/>
-        <location filename="../src/sync.cpp" line="224"/>
-        <source>Propagate deletions</source>
-        <translation>Propaga cancellazioni</translation>
+        <translation>Gizli dosya ve klasörler de eşitlensin</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="187"/>
         <location filename="../src/sync.cpp" line="188"/>
         <source>Do not synchronise subdirectories</source>
-        <translation>Non sincronizzare le subdirectories</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="203"/>
-        <location filename="../src/sync.cpp" line="204"/>
-        <source>Ignore blacklist</source>
-        <translation>Ignora la blacklist</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="296"/>
-        <source>Edit blacklist</source>
-        <translation>Edita la blacklist</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="297"/>
-        <source>Edit blacklist for this tab</source>
-        <translation>Edita la blacklist di questo tab</translation>
+        <translation>Alt klasörler eşitlenmesin</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="191"/>
         <location filename="../src/sync.cpp" line="192"/>
         <source>Do not backup updated files</source>
-        <translation>Non fare il backup dei file aggiornati</translation>
+        <translation>Güncellenen dosyalar yedeklenmesin</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="196"/>
         <location filename="../src/sync.cpp" line="197"/>
         <source>Update existing files only</source>
-        <translation>Aggiorna solo i files esistenti</translation>
+        <translation>Sadece mevcut dosyalar güncellensin</translation>
     </message>
     <message>
-        <location filename="../src/sync.cpp" line="251"/>
-        <location filename="../src/sync.cpp" line="252"/>
-        <source>Follow symbolic links</source>
-        <translation>Segui i link simbolici</translation>
+        <location filename="../src/sync.cpp" line="203"/>
+        <location filename="../src/sync.cpp" line="204"/>
+        <source>Ignore blacklist</source>
+        <translation>Karaliste görmezden gelinsin</translation>
     </message>
     <message>
-        <location filename="../src/sync.cpp" line="280"/>
-        <location filename="../src/sync.cpp" line="281"/>
-        <source>Filters</source>
-        <translation>Filtri</translation>
+        <location filename="../src/sync.cpp" line="223"/>
+        <location filename="../src/sync.cpp" line="224"/>
+        <source>Propagate deletions</source>
+        <translation>Silme işlemleri hedeflerde de uygulansın</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="231"/>
+        <source>Detect collisions</source>
+        <translation>Çakışmalar tespit edilsin</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="232"/>
+        <source>Detect and alert collided files</source>
+        <translation>Çakışan dosyaları tespit et ve uyar</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="214"/>
         <location filename="../src/sync.cpp" line="216"/>
         <location filename="../src/sync.cpp" line="1409"/>
         <source>Move contents to folder 2, leaving folder 1 empty</source>
-        <translation>Sposta i contenuti alla cartella 2, lasciando vuota la cartella 1</translation>
+        <translation>Klasör 1&apos;in içeriğini klasör 2&apos;ye taşınsın ve klasör 1 boşaltılsın</translation>
     </message>
     <message>
-        <location filename="../src/sync.cpp" line="258"/>
-        <source>Analysis</source>
-        <translation>Analisi</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="259"/>
-        <source>Advanced options for the analysis</source>
-        <translation>Opzioni avanzate per l&apos;analisi</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="262"/>
-        <location filename="../src/sync.cpp" line="264"/>
-        <source>Fast analysis</source>
-        <translation>Analisi veloce</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="267"/>
-        <location filename="../src/sync.cpp" line="269"/>
-        <source>List files which need to be synchronised only</source>
-        <translation>Elenco dei file che devono essere solo sincronizzati </translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="282"/>
-        <source>Choose filters to be used</source>
-        <translation>Scegli i filtri da utilizzare</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="211"/>
-        <source>Due to Daylight Saving Time (DST), files may have 1 hour delta</source>
-        <translation>A causa dell&apos;ora legale, i file potrebbero avere 1 ora di differenza</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="424"/>
-        <source>%1	Failed to create directory %2</source>
-        <translation>%1	Creazione directory fallita %2</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="426"/>
-        <source>%1	Directory %2 created</source>
-        <translation>%1	Directory %2 creata</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="434"/>
-        <source>%1	Synchronisation failed: Not enough valid directories specified</source>
-        <translation>%1	Sincronizzazione fallita:Non è valida la directory specificata</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="470"/>
-        <source>%1	Synchronisation failed: Directories with the same path selected</source>
-        <translation>%1	Sincronizzazione fallita:Selezionate directories con lo stesso percorso</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="499"/>
-        <location filename="../src/sync.cpp" line="501"/>
-        <source>moved</source>
-        <translation>spostato</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="1080"/>
-        <location filename="../src/sync.cpp" line="1096"/>
-        <source>A file and a folder with the same name (%1) have been found. Unable to synchronise these files.</source>
-        <translation>Un file ed una cartella con lo stesso nome (%1) sono stati strovati. Impossibile sincronizzare questi files.</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="1087"/>
-        <source>Folder %1 blacklisted, skipped</source>
-        <translation>Cartella %1 blacklisted, saltata</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="1103"/>
-        <source>File %1 blacklisted, skipped</source>
-        <translation>File %1 blacklisted, saltato</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="1252"/>
-        <source>File %1 restored</source>
-        <translation>File %1 ripristinato</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="1408"/>
-        <source>Move</source>
-        <translation>Sposta</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="117"/>
-        <source>Press the &quot;Sync&quot; button to start synchronisation</source>
-        <translation>Premi il bottone &quot;Sync&quot; per avviare la sincronizzazione</translation>
+        <location filename="../src/sync.cpp" line="142"/>
+        <source>Show advanced options of configuration</source>
+        <translation>Yapılandırmanın gelişmiş seçeneklerini göster</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="181"/>
         <location filename="../src/sync.cpp" line="182"/>
         <source>Do not create empty folders</source>
-        <translation>Non creare cartelle vuote</translation>
+        <translation>Boş klasör oluşturulmasın</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="210"/>
+        <source>Ignore 1 hour difference</source>
+        <translation>1 saatlik farkları göz ardı edilsin</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="211"/>
+        <source>Due to Daylight Saving Time (DST), files may have 1 hour delta</source>
+        <translation>Yaz saati uygulaması sebebiyle dosyalar 1 saatlik farklara sahip olabilir</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="240"/>
         <location filename="../src/sync.cpp" line="241"/>
         <source>Store database in a text file</source>
-        <translation>Memorizza il database in un file di testo</translation>
+        <translation>Veritabanını bir düz metin dosyasında sakla</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="251"/>
+        <location filename="../src/sync.cpp" line="252"/>
+        <source>Follow symbolic links</source>
+        <translation>Sembolik bağlantıları takip et</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="258"/>
+        <source>Analysis</source>
+        <translation>Analiz</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="259"/>
+        <source>Advanced options for the analysis</source>
+        <translation>Analiz için gelişmiş seçenekler</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="262"/>
+        <location filename="../src/sync.cpp" line="264"/>
+        <source>Fast analysis</source>
+        <translation>Hızlı analiz</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="267"/>
+        <location filename="../src/sync.cpp" line="269"/>
+        <source>List files which need to be synchronised only</source>
+        <translation>Sadece eşitlenmesi gereken dosyaları listele</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="272"/>
+        <location filename="../src/sync.cpp" line="274"/>
+        <source>Sort by action</source>
+        <translation>İşleme göre sırala</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="280"/>
+        <location filename="../src/sync.cpp" line="281"/>
+        <source>Filters</source>
+        <translation>Filtreler</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="282"/>
+        <source>Choose filters to be used</source>
+        <translation>Kullanılacak filtreleri seç</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="296"/>
+        <source>Edit blacklist</source>
+        <translation>Karalisteyi düzenle</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="297"/>
+        <source>Edit blacklist for this tab</source>
+        <translation>Bu sekmenin karalistesini düzenle</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="303"/>
+        <source>Change allowed time difference</source>
+        <translation>İzin verilen zaman farkını değiştir</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="304"/>
+        <source>Change the allowed time difference between synchronised files</source>
+        <translation>Eşitlenen dosyalar arasındaki izin verilen zaman farkını değiştir</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="424"/>
+        <source>%1	Failed to create directory %2</source>
+        <translation>%1	Klasör oluşturulamadı %2</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="426"/>
+        <source>%1	Directory %2 created</source>
+        <translation>%1	%2 klasörü oluşturuldu</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="434"/>
+        <source>%1	Synchronisation failed: Not enough valid directories specified</source>
+        <translation>%1	Eşitleme yapılamadı: Yeterli geçerli klasör belirlenmedi</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="466"/>
+        <source>%1	Synchronisation started</source>
+        <translation>%1	Eşitleme başlatıldı</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="470"/>
+        <source>%1	Synchronisation failed: Directories with the same path selected</source>
+        <translation>%1	Eşitleme yapılamadı: Aynı adrese sahip klasörler seçildi</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="475"/>
         <source>Moving</source>
-        <translation>Movimento</translation>
+        <translation>Taşınıyor</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="478"/>
@@ -2790,23 +2849,60 @@
         <location filename="../src/sync.cpp" line="1217"/>
         <location filename="../src/sync.cpp" line="1259"/>
         <source>Searching for changes</source>
-        <translation>Ricerca per modifiche</translation>
+        <translation>Değişiklikler tespit ediliyor</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="492"/>
+        <source>%1 repeated temporary files deleted</source>
+        <translation>%1 tekrarlanan geçici dosyalar silindi</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="499"/>
+        <location filename="../src/sync.cpp" line="501"/>
+        <source>moved</source>
+        <translation>taşındı</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="503"/>
         <location filename="../src/tabs.cpp" line="225"/>
         <source>Last synced on %1</source>
-        <translation>Ultima sincronizzazione su %1</translation>
+        <translation>Son eşitleme %1</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="1080"/>
+        <location filename="../src/sync.cpp" line="1096"/>
+        <source>A file and a folder with the same name (%1) have been found. Unable to synchronise these files.</source>
+        <translation>(%1) ile aynı isme sahip olan dosya ve klasör bulundu. Bu dosyalarda eşitleme yapılamaz.</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="1087"/>
+        <source>Folder %1 blacklisted, skipped</source>
+        <translation>Klasör %1 karalistede, pas geçildi</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="1103"/>
+        <source>File %1 blacklisted, skipped</source>
+        <translation>Dosya %1 karalistede, pas geçildi</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="1208"/>
         <source>Copying file %1</source>
-        <translation>Copia file %1</translation>
+        <translation>%1 dosyası kopyalanıyor</translation>
     </message>
     <message>
         <location filename="../src/sync.cpp" line="1231"/>
         <source>Updating file %1</source>
-        <translation>Aggiornameto file %1</translation>
+        <translation>%1 dosyası güncelleniyor</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="1252"/>
+        <source>File %1 restored</source>
+        <translation>%1 dosyası geri yüklendi</translation>
+    </message>
+    <message>
+        <location filename="../src/sync.cpp" line="1408"/>
+        <source>Move</source>
+        <translation>Taşı</translation>
     </message>
     <message>
         <location filename="../src/tabs.cpp" line="184"/>
@@ -2817,95 +2913,8 @@
         <location filename="../src/tabs.cpp" line="184"/>
         <source>Cannot write file %1:
 %2.</source>
-        <translation>Impossibile scrivere il file%1:
+        <translation>%1 dosyası yazılamıyor:
 %2.</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="303"/>
-        <source>Change allowed time difference</source>
-        <translation>Cambio differenza di tempo permessa</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="304"/>
-        <source>Change the allowed time difference between synchronised files</source>
-        <translation>Cambio differenza di tempo permessa tra file sincronizzati</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="231"/>
-        <source>Detect collisions</source>
-        <translation>Rileva collisioni</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="232"/>
-        <source>Detect and alert collided files</source>
-        <translation>Rileva e avvisa collisione files</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="466"/>
-        <source>%1	Synchronisation started</source>
-        <translation>%1	Sincronizzazione avviata</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="492"/>
-        <source>%1 repeated temporary files deleted</source>
-        <translation>%1 file temporanei ripetuti eliminati</translation>
-    </message>
-    <message>
-        <location filename="../src/analyse.cpp" line="232"/>
-        <source>%1 files and folders need to be synchronised</source>
-        <translation>%1 files e cartelle devono essere sincronizzati</translation>
-    </message>
-    <message>
-        <location filename="../src/analyse.cpp" line="219"/>
-        <source>NOT FOUND</source>
-        <translation>NON TROVATO</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="141"/>
-        <location filename="../src/sync.cpp" line="170"/>
-        <source>Advanced</source>
-        <translation>Avanzato</translation>
-    </message>
-    <message>
-        <location filename="../src/analyse.cpp" line="441"/>
-        <source>Files to copy (%1)</source>
-        <translation>File da copiare (%1)</translation>
-    </message>
-    <message>
-        <location filename="../src/analyse.cpp" line="443"/>
-        <source>Files to update (%1)</source>
-        <translation>File da aggiornare (%1)</translation>
-    </message>
-    <message>
-        <location filename="../src/analyse.cpp" line="445"/>
-        <source>Collided files (%1)</source>
-        <translation>Collizione file (%1)</translation>
-    </message>
-    <message>
-        <location filename="../src/analyse.cpp" line="447"/>
-        <source>Files to delete (%1)</source>
-        <translation>File da cancellare (%1)</translation>
-    </message>
-    <message>
-        <location filename="../src/analyse.cpp" line="449"/>
-        <source>Folders to create (%1)</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../src/analyse.cpp" line="451"/>
-        <source>Folders to delete (%1)</source>
-        <translation>Cartelle da cancellare (%1)</translation>
-    </message>
-    <message>
-        <location filename="../src/analyse.cpp" line="497"/>
-        <source>From %1 to %2</source>
-        <translation>Da %1 a %2</translation>
-    </message>
-    <message>
-        <location filename="../src/sync.cpp" line="272"/>
-        <location filename="../src/sync.cpp" line="274"/>
-        <source>Sort by action</source>
-        <translation>Ordina per azione</translation>
     </message>
 </context>
 <context>
@@ -2913,12 +2922,12 @@
     <message>
         <location filename="../src/scheduler.cpp" line="438"/>
         <source>Synchronisation complete</source>
-        <translation>Sincronizzazione completa</translation>
+        <translation>Eşitleme tamamlandı</translation>
     </message>
     <message>
         <location filename="../src/scheduler.cpp" line="438"/>
         <source>%1 files synchronised</source>
-        <translation>%1 files sincronizzati</translation>
+        <translation>%1 dosya eşitlendi</translation>
     </message>
 </context>
 <context>
@@ -2926,47 +2935,47 @@
     <message>
         <location filename="../ui/syncviewitem.ui" line="14"/>
         <source>SyncViewItem</source>
-        <translation>VistaElementiSincronizzati</translation>
+        <translation>Nesneyi görüntüle</translation>
     </message>
     <message>
         <location filename="../ui/syncviewitem.ui" line="35"/>
         <source>Sync name</source>
-        <translation>Nome Sync</translation>
+        <translation>Eşitleme adı</translation>
     </message>
     <message>
         <location filename="../ui/syncviewitem.ui" line="58"/>
         <source>Start synchronisation</source>
-        <translation>Avvia syncronizzazione</translation>
+        <translation>Eşitlemeyi başlat</translation>
     </message>
     <message>
         <location filename="../ui/syncviewitem.ui" line="61"/>
         <source>Start</source>
-        <translation>Avvia</translation>
+        <translation>Başlat</translation>
     </message>
     <message>
         <location filename="../ui/syncviewitem.ui" line="68"/>
         <source>Stop synchronisation</source>
-        <translation>Fema sincronizzazione</translation>
+        <translation>Eşitlemeyi durdur</translation>
     </message>
     <message>
         <location filename="../ui/syncviewitem.ui" line="71"/>
         <source>Stop</source>
-        <translation>Ferma</translation>
+        <translation>Durdur</translation>
     </message>
     <message>
         <location filename="../ui/syncviewitem.ui" line="78"/>
         <source>Edit synchronisation</source>
-        <translation>Edita sincronizzazione</translation>
+        <translation>Eşitlemeyi düzenle</translation>
     </message>
     <message>
         <location filename="../ui/syncviewitem.ui" line="81"/>
         <source>Edit</source>
-        <translation>Edita</translation>
+        <translation>Düzenle</translation>
     </message>
     <message>
         <location filename="../src/syncview.cpp" line="86"/>
         <source>file(s) synchronised</source>
-        <translation>file(s) sincronizzati</translation>
+        <translation>dosya eşitlendi</translation>
     </message>
 </context>
 </TS>
